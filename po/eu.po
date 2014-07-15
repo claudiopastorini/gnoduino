@@ -1,0 +1,442 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-15 12:54+0200\n"
+"PO-Revision-Date: 2014-07-15 13:57+0200\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
+"Language-Team: Basque <librezale@librezale.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: ../src/compiler.py:137
+msgid "Compiling..."
+msgstr "Konpilatzen..."
+
+#: ../src/compiler.py:156 ../src/compiler.py:162 ../src/compiler.py:168
+#: ../src/compiler.py:175 ../src/compiler.py:193 ../src/compiler.py:224
+msgid "Compile Error"
+msgstr "Errorea konpilazioan"
+
+#: ../src/compiler.py:254
+msgid "Linking error"
+msgstr "Errorea estekatzean"
+
+#: ../src/compiler.py:266 ../src/compiler.py:279
+msgid "Object error"
+msgstr "Errorea objektuan"
+
+#: ../src/compiler.py:285
+msgid "Done compiling."
+msgstr "Konpilazioa burututa."
+
+#: ../src/compiler.py:289
+#, python-format
+msgid "Binary sketch size: %s bytes (of a %s bytes maximum)\n"
+msgstr "Programa bitarraren tamaina: %s byte (%s byte gehienez)\n"
+
+#: ../src/compiler.py:377 ../src/compiler.py:402
+msgid "Library Error"
+msgstr "Errorea liburutegian"
+
+#: ../src/misc.py:54
+#, python-format
+msgid ""
+"Unable to locate %s\n"
+"Arduino SDK missing or broken."
+msgstr ""
+"Ezin da %s aurkitu\n"
+"Arduino SDK falta da edo hondatuta dago."
+
+#: ../src/misc.py:148
+#, python-format
+msgid "Cannot load %s file. Exiting."
+msgstr "Ezin da '%s' fitxategia kargatu. Irteten."
+
+#: ../src/misc.py:151
+#, python-format
+msgid "Error reading %s file. File is corrupt. Installation problem.\n"
+msgstr ""
+"Errorea '%s' fitxategia irakurtzean. Fitxategia hondatuta dago. "
+"Instalazioaren arazoa.\n"
+
+#: ../src/misc.py:278
+msgid "Error compiling."
+msgstr "Errorea konpilatzean."
+
+#: ../src/misc.py:349
+msgid "Close without Saving"
+msgstr "Itxi gorde gabe"
+
+#: ../src/misc.py:351
+msgid "If you don't save, changes will be permanently lost."
+msgstr "Ez baduzu gordetzen, aldaketak betirako galduko dira."
+
+#: ../src/serialio.py:113
+msgid ""
+"Serial port not configured!\n"
+"Use Tools->Serial Port to configure port."
+msgstr ""
+"Serieko ataka konfiguratu gabe\n"
+"Erabili 'Tresnak->Serieko ataka' ataka konfiguratzeko."
+
+#: ../src/srcview.py:161 ../src/srcview.py:171 ../src/srcview.py:241
+#: ../src/srcview.py:252
+#, python-format
+msgid "'%s' not found."
+msgstr "Ez da '%s' aurkitu."
+
+#: ../src/srcview.py:292 ../src/srcview.py:301
+#, python-format
+msgid "A total of %s replacements made."
+msgstr "Guztira %s ordezkapen egin dira."
+
+#: ../src/ui.py:69 ../src/ui.py:91 ../src/ui.py:109 ../src/ui.py:180
+#: ../src/ui.py:195
+msgid "Untitled"
+msgstr "Izengabea"
+
+#: ../src/ui.py:70
+msgid "Save document"
+msgstr "Gorde dokumentua"
+
+#: ../src/ui.py:71
+#, python-format
+msgid ""
+"Save changes to document \"%s\"\n"
+" before closing?"
+msgstr ""
+"Gorde aldaketak '%s' dokumentuan\n"
+"itxi aurretik?"
+
+#: ../src/ui.py:189
+msgid "Save file"
+msgstr "Gorde fitxategia"
+
+#: ../src/ui.py:206
+msgid "Open file"
+msgstr "Ireki fitxategia"
+
+#: ../src/ui.py:232
+#, python-format
+msgid "<b>A file named %s already exists. Do you want to replace it?</b>"
+msgstr "<b>'%s' fitxategia badago lehendik ere. Ordeztea nahi duzu?</b>"
+
+#: ../src/ui.py:233
+#, python-format
+msgid ""
+"The file already exists in \"%s\". Replacing it will overwrite its contents."
+msgstr ""
+"Fitxategia badago lehendik ere '%s'(e)n. Hura ordeztean bere edukia "
+"gainidatziko da."
+
+#: ../src/ui.py:561
+msgid "Open Recent"
+msgstr "Ireki azkenekoa"
+
+#: ../src/ui.py:596 ../ui/main.ui.h:59
+msgid "Send"
+msgstr "Bidali"
+
+#: ../src/ui.py:597
+msgid "Clear"
+msgstr "Garbitu"
+
+#: ../src/ui.py:635
+#, python-format
+msgid "%s baud"
+msgstr "%s baud"
+
+#: ../src/ui.py:648
+#, python-format
+msgid "New device found on '%s'."
+msgstr "Gailu berria aurkitu da '%s'(e)n."
+
+#: ../src/ui.py:835
+msgid "E_xamples"
+msgstr "_Adibideak"
+
+#: ../src/ui.py:856
+msgid "Import Library"
+msgstr "Inportatu liburutegia"
+
+#: ../src/ui.py:862 ../ui/main.ui.h:55
+msgid "Upload"
+msgstr "Igorri"
+
+#: ../src/ui.py:869
+msgid "Upload using programmer"
+msgstr "Igorri darabilen programatzailea"
+
+#: ../src/ui.py:908 ../src/ui.py:914 ../src/ui.py:920
+msgid "System error"
+msgstr "Sistemaren errorea"
+
+#: ../src/ui.py:923
+msgid "Cannot load ui file"
+msgstr "Ezin da UI fitxategia kargatu"
+
+#: ../src/ui.py:1007
+msgid "--help    Print the command line options"
+msgstr "--help    Komando-lerroaren aukerak erakusteko"
+
+#: ../src/ui.py:1008
+msgid "--version Output version information and exit"
+msgstr "--version Bertsioaren informazioa erakutsi eta irten"
+
+#: ../src/uploader.py:54
+msgid "Burning bootloader..."
+msgstr "Abioko kargatzailea grabatzen..."
+
+#: ../src/uploader.py:67 ../src/uploader.py:102 ../src/uploader.py:154
+#: ../src/uploader.py:168
+msgid "Flashing error."
+msgstr "Errorea flash-eatzean"
+
+#: ../src/uploader.py:93 ../src/uploader.py:124
+msgid "Burn Error"
+msgstr "Errorea grabatzean"
+
+#: ../src/uploader.py:93 ../src/uploader.py:124
+msgid "Burn ERROR."
+msgstr "Errorea grabatzean."
+
+#: ../src/uploader.py:127
+msgid "Burn complete."
+msgstr "Grabazioa burututa."
+
+#: ../src/uploader.py:136
+msgid "Flashing..."
+msgstr "Flash-eatzen..."
+
+#: ../src/uploader.py:187
+msgid "Flashing Error"
+msgstr "Errorea flash-eatzean"
+
+#: ../src/uploader.py:187
+msgid "Flash ERROR.\n"
+msgstr "Errorea flash-eatzean.\n"
+
+#: ../src/uploader.py:190
+msgid "Flashing complete."
+msgstr "Flash-eatzea burututa."
+
+#: ../ui/arduino.xml.h:1
+msgid "Arduino"
+msgstr "Arduino"
+
+#: ../ui/arduino.xml.h:2
+msgid "Arduino color scheme"
+msgstr "Arduino-ren kolore-eskema"
+
+#: ../ui/main.ui.h:1
+msgid "Lucian Langa <lucilanga@gnome.org>"
+msgstr "Lucian Langa <lucilanga@gnome.org>"
+
+#: ../ui/main.ui.h:2
+msgid "GNOME Arduino IDE"
+msgstr "GNOMEren Arduino-ren IDEa"
+
+#: ../ui/main.ui.h:3
+msgid "gnoduino"
+msgstr "gnoduino"
+
+#: ../ui/main.ui.h:4
+msgid ""
+" gnoduino - Python Arduino IDE implementation\n"
+" Copyright (C) 2010-2012  Lucian Langa\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 2\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
+"USA.\n"
+msgstr ""
+" gnoduino - Python Arduino-ren IDEaren garapena\n"
+" Copyright-a (C) 2010-2012  Lucian Langa\n"
+"\n"
+"Programa hau software librea da; birbana eta/edo alda dezakezu Software\n"
+"Foundation-ek argitaratutako GNU Lizentzia Publiko Orokorraren 2. "
+"bertsioan,\n"
+"edo (nahiago baduzu) beste berriago batean, jasotako baldintzak betez gero.\n"
+"\n"
+"Egunkari-ikustailea erabilgarria izango delakoan banatzen da, baina, "
+"INOLAKO\n"
+"BERMERIK GABE; era berean, ez da bermatzen beraren EGOKITASUNA\n"
+"MERKATURATZEKO edo HELBURU PARTIKULARRETARAKO ERABILTZEKO.\n"
+"Argibide gehiago nahi izanez gero, ikus GNU Lizentzia Publiko Orokorra.\n"
+"\n"
+"Programa honekin batera GNU Lizentzia Publiko Orokorraren kopia bat jasoko\n"
+"zenuen; hala ez bada, idatzi hona: Free SoftwareFoundation, Inc., 51\n"
+"Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA\n"
+
+#: ../ui/main.ui.h:21
+msgid "translator-credits"
+msgstr "Iñaki Larrañaga Murgoitio <dooteo@zundan.com>"
+
+#: ../ui/main.ui.h:22
+msgid "Search for:"
+msgstr "Bilatu:"
+
+#: ../ui/main.ui.h:23
+msgid "Match entire word only"
+msgstr "Bat etorri hitz osoekin soilik"
+
+#: ../ui/main.ui.h:24
+msgid "Wrap around"
+msgstr "Itzulbiratu"
+
+#: ../ui/main.ui.h:25
+msgid "Match case"
+msgstr "Maiuskula/minuskula"
+
+#: ../ui/main.ui.h:26
+msgid "Search backwards"
+msgstr "Bilatu gorantz"
+
+#: ../ui/main.ui.h:27
+msgid "Editor font size"
+msgstr "Editatu letra-tamaina"
+
+#: ../ui/main.ui.h:28
+msgid "Console font size"
+msgstr "Kontsolaren letra-tamaina"
+
+#: ../ui/main.ui.h:29
+msgid "Verbose build"
+msgstr "Eraiki xehetasunekin"
+
+#: ../ui/main.ui.h:30
+msgid "Verbose upload"
+msgstr "Igo xehetasunekin"
+
+#: ../ui/main.ui.h:31
+msgid "Show line numbers"
+msgstr "Erakutsi lerro-zenbakiak"
+
+#: ../ui/main.ui.h:32
+msgid "Sketchdir: "
+msgstr "Programaren direktorioa: "
+
+#: ../ui/main.ui.h:33
+msgid ""
+"Enter any supplementary path that compiler will check for, separate them by "
+"semicolons. (eg /usr/share/gnoduino;/usr/local/share/gnoduino)"
+msgstr ""
+"Sartu edozer bide-izen gehigarri konpilatzaileak egiaztatzeko, bereizteko "
+"erabili puntu eta komak. Adibidez, /usr/share/gnoduino;/usr/local/share/"
+"gnoduino."
+
+#: ../ui/main.ui.h:34
+msgid "Additional library paths:"
+msgstr "Liburutegi gehigarrien bide-izenak:"
+
+#: ../ui/main.ui.h:35
+msgid "Replace All"
+msgstr "Ordeztu denak"
+
+#: ../ui/main.ui.h:36
+msgid "Replace with:"
+msgstr "Ordeztu honekin:"
+
+#: ../ui/main.ui.h:37
+msgid "_File"
+msgstr "_Fitxategia"
+
+#: ../ui/main.ui.h:38
+msgid "Upload to I/O Board"
+msgstr "Igorri S/I txartelera"
+
+#: ../ui/main.ui.h:39
+msgid "Preferences"
+msgstr "Hobespenak"
+
+#: ../ui/main.ui.h:40
+msgid "_Edit"
+msgstr "_Editatu"
+
+#: ../ui/main.ui.h:41
+msgid "Sketch"
+msgstr "Programa"
+
+#: ../ui/main.ui.h:42
+msgid "Verify/Compile"
+msgstr "Egiaztatu/Konpilatu"
+
+#: ../ui/main.ui.h:43
+msgid "Stop"
+msgstr "Gelditu"
+
+#: ../ui/main.ui.h:44
+msgid "Add File..."
+msgstr "Gehitu fitxategia..."
+
+#: ../ui/main.ui.h:45
+msgid "Tools"
+msgstr "Tresnak"
+
+#: ../ui/main.ui.h:46
+msgid "Serial Monitor"
+msgstr "Serieko monitorea"
+
+#: ../ui/main.ui.h:47
+msgid "Reset Board"
+msgstr "Berrezarri txartela"
+
+#: ../ui/main.ui.h:48
+msgid "Board"
+msgstr "Txartela"
+
+#: ../ui/main.ui.h:49
+msgid "Serial Port"
+msgstr "Serieko ataka"
+
+#: ../ui/main.ui.h:50
+msgid "Programmer"
+msgstr "Programatzailea"
+
+#: ../ui/main.ui.h:51
+msgid "Burn Bootloader"
+msgstr "Grabatu abioko kargatzailea"
+
+#: ../ui/main.ui.h:52
+msgid "_Help"
+msgstr "_Laguntza"
+
+#: ../ui/main.ui.h:53
+msgid "Reference"
+msgstr "Erreferentzia"
+
+#: ../ui/main.ui.h:54
+msgid "Compile"
+msgstr "Konpilatu"
+
+#: ../ui/main.ui.h:56
+msgid "New"
+msgstr "Berria"
+
+#: ../ui/main.ui.h:57
+msgid "Open"
+msgstr "Ireki"
+
+#: ../ui/main.ui.h:58
+msgid "Save"
+msgstr "Gorde"
+
