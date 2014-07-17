@@ -44,7 +44,7 @@ static const uint8_t SCK  = 13;
 
 static const uint8_t SDA = 18;
 static const uint8_t SCL = 19;
-#define LED_BUILTIN 13
+#define LED_BUILTIN 9
 
 static const uint8_t A0 = 14;
 static const uint8_t A1 = 15;
@@ -59,8 +59,6 @@ static const uint8_t A7 = 21;
 #define digitalPinToPCICRbit(p) (((p) <= 7) ? 2 : (((p) <= 13) ? 0 : 1))
 #define digitalPinToPCMSK(p)    (((p) <= 7) ? (&PCMSK2) : (((p) <= 13) ? (&PCMSK0) : (((p) <= 21) ? (&PCMSK1) : ((uint8_t *)0))))
 #define digitalPinToPCMSKbit(p) (((p) <= 7) ? (p) : (((p) <= 13) ? ((p) - 8) : ((p) - 14)))
-
-#define digitalPinToInterrupt(p)  ((p) == 2 ? 0 : ((p) == 3 ? 1 : NOT_AN_INTERRUPT))
 
 #ifdef ARDUINO_MAIN
 
@@ -93,7 +91,7 @@ static const uint8_t A7 = 21;
 //
 // 0-7 PE0-PE7   works
 // 8-13 PB0-PB5  works
-// 14-21 PA0-PA7 works 
+// 14-21 PA0-PA7 works
 // 22-29 PH0-PH7 works
 // 30-35 PG5-PG0 works
 // 36-43 PC7-PC0 works
@@ -232,7 +230,7 @@ const uint8_t PROGMEM digital_pin_to_timer_PGM[] = {
 //
 // SERIAL_PORT_HARDWARE_OPEN  Hardware serial ports which are open for use.  Their RX & TX
 //                            pins are NOT connected to anything by default.
-#define SERIAL_PORT_MONITOR   Serial
-#define SERIAL_PORT_HARDWARE  Serial
+#define SERIAL_PORT_HARDWARE       Serial
+#define SERIAL_PORT_HARDWARE_OPEN  Serial
 
 #endif

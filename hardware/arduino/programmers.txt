@@ -24,7 +24,3 @@ arduinoisp.name=Arduino as ISP
 arduinoisp.communication=serial
 arduinoisp.protocol=stk500v1
 arduinoisp.speed=19200
-
-mysmartusblight.name=mySmartUSB light
-mysmartusblight.communication=serial
-mysmartusblight.protocol=stk500v2
