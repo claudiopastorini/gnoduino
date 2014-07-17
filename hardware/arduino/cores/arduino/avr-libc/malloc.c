@@ -29,8 +29,8 @@
   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
   POSSIBILITY OF SUCH DAMAGE.
 */
- 
- 
+
+
 /* $Id: malloc.c 2149 2010-06-09 20:45:37Z joerg_wunsch $ */
 
 #include <stdlib.h>
@@ -49,7 +49,7 @@
  * calls must not require more stack space, or they'll risk to collide
  * with the data segment.
  */
- 
+
 /* May be changed by the user only before the first malloc() call.  */
 
 size_t __malloc_margin = 128;
