@@ -6,3 +6,6 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="05dc", GROUP="dial
 
 # AVRISP mkII
 SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="2104", GROUP="dialout", MODE="660"
+
+# ArduinoISP
+SUBSYSTEM=="usb", ATTRS{idVendor}=="2341", ATTRS{idProduct}=="0049", GROUP="dialout", MODE="660"
