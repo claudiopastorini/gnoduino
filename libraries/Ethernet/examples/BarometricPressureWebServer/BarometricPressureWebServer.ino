@@ -56,57 +56,6 @@ float temperature = 0.0;
 long pressure = 0;
 long lastReadingTime = 0;
 
-//Send a write command to SCP1000
-void writeRegister(byte registerName, byte registerValue) {
-  // SCP1000 expects the register name in the upper 6 bits
-  // of the byte:
-  registerName <<= 2;
-  // command (read or write) goes in the lower two bits:
-  registerName |= 0b00000010; //Write command
-
-  // take the chip select low to select the device:
-  digitalWrite(chipSelectPin, LOW); 
-
-  SPI.transfer(registerName); //Send register location
-  SPI.transfer(registerValue); //Send value to record into register
-
-  // take the chip select high to de-select:
-  digitalWrite(chipSelectPin, HIGH); 
-}
-
-
-//Read register from the SCP1000:
-unsigned int readRegister(byte registerName, int numBytes) {
-  byte inByte = 0;           // incoming from  the SPI read
-  unsigned int result = 0;   // result to return 
-
-  // SCP1000 expects the register name in the upper 6 bits
-  // of the byte:
-  registerName <<=  2;
-  // command (read or write) goes in the lower two bits:
-  registerName &= 0b11111100; //Read command
-
-  // take the chip select low to select the device:
-  digitalWrite(chipSelectPin, LOW); 
-  // send the device the register you want to read:
-  int command = SPI.transfer(registerName); 
-  // send a value of 0 to read the first byte returned:
-  inByte = SPI.transfer(0x00); 
-  
-  result = inByte;
-  // if there's more than one byte returned, 
-  // shift the first byte then get the second byte:
-  if (numBytes > 1){
-    result = inByte << 8;
-    inByte = SPI.transfer(0x00); 
-    result = result |inByte;
-  }
-  // take the chip select high to de-select:
-  digitalWrite(chipSelectPin, HIGH); 
-  // return the result:
-  return(result);
-}
-
 void setup() {
   // start the SPI library:
   SPI.begin();
@@ -219,3 +168,55 @@ void listenForEthernetClients() {
     client.stop();
   }
 } 
+
+
+//Send a write command to SCP1000
+void writeRegister(byte registerName, byte registerValue) {
+  // SCP1000 expects the register name in the upper 6 bits
+  // of the byte:
+  registerName <<= 2;
+  // command (read or write) goes in the lower two bits:
+  registerName |= 0b00000010; //Write command
+
+  // take the chip select low to select the device:
+  digitalWrite(chipSelectPin, LOW);
+
+  SPI.transfer(registerName); //Send register location
+  SPI.transfer(registerValue); //Send value to record into register
+
+  // take the chip select high to de-select:
+  digitalWrite(chipSelectPin, HIGH);
+}
+
+
+//Read register from the SCP1000:
+unsigned int readRegister(byte registerName, int numBytes) {
+  byte inByte = 0;           // incoming from  the SPI read
+  unsigned int result = 0;   // result to return
+
+  // SCP1000 expects the register name in the upper 6 bits
+  // of the byte:
+  registerName <<=  2;
+  // command (read or write) goes in the lower two bits:
+  registerName &= 0b11111100; //Read command
+
+  // take the chip select low to select the device:
+  digitalWrite(chipSelectPin, LOW);
+  // send the device the register you want to read:
+  int command = SPI.transfer(registerName);
+  // send a value of 0 to read the first byte returned:
+  inByte = SPI.transfer(0x00);
+
+  result = inByte;
+  // if there's more than one byte returned,
+  // shift the first byte then get the second byte:
+  if (numBytes > 1){
+    result = inByte << 8;
+    inByte = SPI.transfer(0x00);
+    result = result |inByte;
+  }
+  // take the chip select high to de-select:
+  digitalWrite(chipSelectPin, HIGH);
+  // return the result:
+  return(result);
+}

@@ -55,22 +55,6 @@ byte i2cRxData[32];
 boolean readingContinuously = false;
 byte queryIndex = 0;
 
-/* reference: BlinkM_funcs.h by Tod E. Kurt, ThingM, http://thingm.com/ */
-// Enables Pins A2 and A3 to be used as GND and Power
-// so that I2C devices can be plugged directly
-// into Arduino header (pins A2 - A5)
-static void enablePowerPins(byte pwrpin, byte gndpin)
-{
-  if(powerPinsEnabled == 0) {
-    DDRC |= _BV(pwrpin) | _BV(gndpin);
-    PORTC &=~ _BV(gndpin);
-    PORTC |=  _BV(pwrpin);
-    powerPinsEnabled = 1;
-    Firmata.sendString("Power pins enabled");
-    delay(100);
-  }
-}
-
 void readAndReportData(byte address, int theRegister, byte numBytes)
 {
   if (theRegister != REGISTER_NOT_SPECIFIED) {
@@ -194,6 +178,22 @@ void systemResetCallback()
 {
   readingContinuously = false;
   queryIndex = 0;
+}
+
+/* reference: BlinkM_funcs.h by Tod E. Kurt, ThingM, http://thingm.com/ */
+// Enables Pins A2 and A3 to be used as GND and Power
+// so that I2C devices can be plugged directly
+// into Arduino header (pins A2 - A5)
+static void enablePowerPins(byte pwrpin, byte gndpin)
+{
+  if(powerPinsEnabled == 0) {
+    DDRC |= _BV(pwrpin) | _BV(gndpin);
+    PORTC &=~ _BV(gndpin);
+    PORTC |=  _BV(pwrpin);
+    powerPinsEnabled = 1;
+    Firmata.sendString("Power pins enabled");
+    delay(100);
+  }
 }
 
 void setup()
