@@ -33,7 +33,7 @@ void SPIClass::begin() {
   // MISO pin automatically overrides to INPUT.
   // By doing this AFTER enabling SPI, we avoid accidentally
   // clocking in a single bit since the lines go directly
-  // from "input" to SPI control.  
+  // from "input" to SPI control.
   // http://code.google.com/p/arduino/issues/detail?id=888
   pinMode(SCK, OUTPUT);
   pinMode(MOSI, OUTPUT);
