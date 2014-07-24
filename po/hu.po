@@ -1,0 +1,445 @@
+# Hungarian translation for gnoduino.
+# Copyright (C) 2014 gnoduino's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnoduino package.
+#
+# Balázs Úr <urbalazs@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnoduino master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gnoduino&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-07-23 05:59+0000\n"
+"PO-Revision-Date: 2014-07-24 08:48+0200\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <gnome-hu-list@gnome.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: ../src/compiler.py:137
+msgid "Compiling..."
+msgstr "Fordítás…"
+
+#: ../src/compiler.py:156 ../src/compiler.py:162 ../src/compiler.py:168
+#: ../src/compiler.py:175 ../src/compiler.py:193 ../src/compiler.py:224
+msgid "Compile Error"
+msgstr "Fordítási hiba"
+
+#: ../src/compiler.py:254
+msgid "Linking error"
+msgstr "Linkelési hiba"
+
+#: ../src/compiler.py:266 ../src/compiler.py:279
+msgid "Object error"
+msgstr "Objektum hiba"
+
+#: ../src/compiler.py:285
+msgid "Done compiling."
+msgstr "A fordítás kész."
+
+#: ../src/compiler.py:289
+#, python-format
+msgid "Binary sketch size: %s bytes (of a %s bytes maximum)\n"
+msgstr "Bináris vázlatméret: %s bájt (%s bájt maximumból)\n"
+
+#: ../src/compiler.py:377 ../src/compiler.py:402
+msgid "Library Error"
+msgstr "Programkönyvtár hiba"
+
+#: ../src/misc.py:54
+#, python-format
+msgid ""
+"Unable to locate %s\n"
+"Arduino SDK missing or broken."
+msgstr ""
+"Nem található: %s\n"
+"Az Arduino SDK hiányzik vagy sérült."
+
+#: ../src/misc.py:148
+#, python-format
+msgid "Cannot load %s file. Exiting."
+msgstr "Nem sikerült betölteni a(z) %s fájlt. Kilépés."
+
+#: ../src/misc.py:151
+#, python-format
+msgid "Error reading %s file. File is corrupt. Installation problem.\n"
+msgstr "Hiba a(z) %s fájl olvasásakor. A fájl sérült. Telepítési probléma.\n"
+
+#: ../src/misc.py:278
+msgid "Error compiling."
+msgstr "Hiba a fordításkor."
+
+#: ../src/misc.py:349
+msgid "Close without Saving"
+msgstr "Bezárás mentés nélkül"
+
+#: ../src/misc.py:351
+msgid "If you don't save, changes will be permanently lost."
+msgstr "Ha nem ment, akkor a változtatások véglegesen elvesznek."
+
+#: ../src/serialio.py:113
+msgid ""
+"Serial port not configured!\n"
+"Use Tools->Serial Port to configure port."
+msgstr ""
+"A soros port nincs beállítva!\n"
+"Az Eszközök->Soros port használatával állíthatja be a portot."
+
+#: ../src/srcview.py:161 ../src/srcview.py:171 ../src/srcview.py:241
+#: ../src/srcview.py:252
+#, python-format
+msgid "'%s' not found."
+msgstr "„%s” nem található."
+
+#: ../src/srcview.py:292 ../src/srcview.py:301
+#, python-format
+msgid "A total of %s replacements made."
+msgstr "Összesen %s csere készült."
+
+#: ../src/ui.py:69 ../src/ui.py:91 ../src/ui.py:109 ../src/ui.py:180
+#: ../src/ui.py:195
+msgid "Untitled"
+msgstr "Névtelen"
+
+#: ../src/ui.py:70
+msgid "Save document"
+msgstr "Dokumentum mentése"
+
+#: ../src/ui.py:71
+#, python-format
+msgid ""
+"Save changes to document \"%s\"\n"
+" before closing?"
+msgstr ""
+"Menti a változásokat a(z) „%s”\n"
+"dokumentumba, mielőtt bezárja?"
+
+#: ../src/ui.py:189
+msgid "Save file"
+msgstr "Fájl mentése"
+
+#: ../src/ui.py:206
+msgid "Open file"
+msgstr "Fájl megnyitása"
+
+#: ../src/ui.py:232
+#, python-format
+msgid "<b>A file named %s already exists. Do you want to replace it?</b>"
+msgstr "<b>Már létezik „%s” nevű fájl. Le akarja cserélni?</b>"
+
+#: ../src/ui.py:233
+#, python-format
+msgid ""
+"The file already exists in \"%s\". Replacing it will overwrite its contents."
+msgstr ""
+"A fájl már létezik a(z) „%s” helyen. Lecserélésével a tartalma felül lesz "
+"írva."
+
+#: ../src/ui.py:561
+msgid "Open Recent"
+msgstr "Legutóbbi megnyitása"
+
+#: ../src/ui.py:596 ../ui/main.ui.h:59
+msgid "Send"
+msgstr "Küldés"
+
+#: ../src/ui.py:597
+msgid "Clear"
+msgstr "Törlés"
+
+#: ../src/ui.py:635
+#, python-format
+msgid "%s baud"
+msgstr "%s bit/s"
+
+#: ../src/ui.py:648
+#, python-format
+msgid "New device found on '%s'."
+msgstr "Új eszköz található itt: „%s”."
+
+#: ../src/ui.py:835
+msgid "E_xamples"
+msgstr "_Példák"
+
+#: ../src/ui.py:856
+msgid "Import Library"
+msgstr "Programkönyvtár importálása"
+
+#: ../src/ui.py:862 ../ui/main.ui.h:55
+msgid "Upload"
+msgstr "Feltöltés"
+
+#: ../src/ui.py:869
+msgid "Upload using programmer"
+msgstr "Feltöltés programozó használatával"
+
+#: ../src/ui.py:908 ../src/ui.py:914 ../src/ui.py:920
+msgid "System error"
+msgstr "Rendszerhiba"
+
+#: ../src/ui.py:923
+msgid "Cannot load ui file"
+msgstr "Nem sikerült betölteni az ui fájlt"
+
+#: ../src/ui.py:1007
+msgid "--help    Print the command line options"
+msgstr "--help    A parancssori kapcsolók kiírása"
+
+#: ../src/ui.py:1008
+msgid "--version Output version information and exit"
+msgstr "--version Verzióinformációk kiírása és kilépés"
+
+#: ../src/uploader.py:54
+msgid "Burning bootloader..."
+msgstr "Rendszerbetöltő írása…"
+
+#: ../src/uploader.py:67 ../src/uploader.py:102 ../src/uploader.py:154
+#: ../src/uploader.py:168
+msgid "Flashing error."
+msgstr "Rátöltési hiba."
+
+#: ../src/uploader.py:93 ../src/uploader.py:124
+msgid "Burn Error"
+msgstr "Írási hiba"
+
+#: ../src/uploader.py:93 ../src/uploader.py:124
+msgid "Burn ERROR."
+msgstr "Írási HIBA."
+
+#: ../src/uploader.py:127
+msgid "Burn complete."
+msgstr "Írás befejezve."
+
+#: ../src/uploader.py:136
+msgid "Flashing..."
+msgstr "Rátöltés…"
+
+#: ../src/uploader.py:187
+msgid "Flashing Error"
+msgstr "Rátöltési hiba"
+
+#: ../src/uploader.py:187
+msgid "Flash ERROR.\n"
+msgstr "Rátöltési HIBA.\n"
+
+#: ../src/uploader.py:190
+msgid "Flashing complete."
+msgstr "Rátöltés befejezve."
+
+#: ../ui/arduino.xml.h:1
+msgid "Arduino"
+msgstr "Arduino"
+
+#: ../ui/arduino.xml.h:2
+msgid "Arduino color scheme"
+msgstr "Arduino színséma"
+
+#: ../ui/main.ui.h:1
+msgid "Lucian Langa <lucilanga@gnome.org>"
+msgstr "Lucian Langa <lucilanga@gnome.org>"
+
+#: ../ui/main.ui.h:2
+msgid "GNOME Arduino IDE"
+msgstr "GNOME Arduino IDE"
+
+#: ../ui/main.ui.h:3
+msgid "gnoduino"
+msgstr "gnoduino"
+
+#: ../ui/main.ui.h:4
+msgid ""
+" gnoduino - Python Arduino IDE implementation\n"
+" Copyright (C) 2010-2012  Lucian Langa\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 2\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
+"USA.\n"
+msgstr ""
+" gnoduino - Python Arduino IDE megvalósítás\n"
+" Copyright © 2010-2012 Lucian Langa\n"
+"\n"
+"Ez a program szabad szoftver; terjeszthető illetve módosítható a\n"
+"Free Software Foundation által kiadott GNU General Public License\n"
+"dokumentumában leírtak; akár a licenc 2-es, akár (tetszőleges) későbbi\n"
+"változata szerint.\n"
+"\n"
+"Ez a program abban a reményben kerül közreadásra, hogy hasznos lesz,\n"
+"de minden egyéb GARANCIA NÉLKÜL, az ELADHATÓSÁGRA vagy VALAMELY CÉLRA\n"
+"VALÓ ALKALMAZHATÓSÁGRA való származtatott garanciát is beleértve.\n"
+"További részleteket a GNU General Public License tartalmaz.\n"
+"\n"
+"A felhasználónak a programmal együtt meg kell kapnia a GNU General\n"
+"Public License egy példányát; ha mégsem kapta meg, akkor\n"
+"ezt a Free Software Foundationnak küldött levélben jelezze\n"
+"(cím: Free Software Foundation Inc., 51 Franklin Street, Fifth Floor, "
+"Boston,\n"
+"MA 02110-1301, USA.)\n"
+
+#: ../ui/main.ui.h:21
+msgid "translator-credits"
+msgstr "Úr Balázs <urbalazs@gmail.com>, 2014."
+
+#: ../ui/main.ui.h:22
+msgid "Search for:"
+msgstr "Keresés erre:"
+
+#: ../ui/main.ui.h:23
+msgid "Match entire word only"
+msgstr "Csak teljes szóra"
+
+#: ../ui/main.ui.h:24
+msgid "Wrap around"
+msgstr "Körbe"
+
+#: ../ui/main.ui.h:25
+msgid "Match case"
+msgstr "Kis- és nagybetűk megkülönböztetése"
+
+#: ../ui/main.ui.h:26
+msgid "Search backwards"
+msgstr "Keresés visszafelé"
+
+#: ../ui/main.ui.h:27
+msgid "Editor font size"
+msgstr "Szerkesztő betűmérete"
+
+#: ../ui/main.ui.h:28
+msgid "Console font size"
+msgstr "Konzol betűmérete"
+
+#: ../ui/main.ui.h:29
+msgid "Verbose build"
+msgstr "Részletes fordítás"
+
+#: ../ui/main.ui.h:30
+msgid "Verbose upload"
+msgstr "Részletes feltöltés"
+
+#: ../ui/main.ui.h:31
+msgid "Show line numbers"
+msgstr "Sorszámok megjelenítése"
+
+#: ../ui/main.ui.h:32
+msgid "Sketchdir: "
+msgstr "Vázlatkönyvtár: "
+
+#: ../ui/main.ui.h:33
+msgid ""
+"Enter any supplementary path that compiler will check for, separate them by "
+"semicolons. (eg /usr/share/gnoduino;/usr/local/share/gnoduino)"
+msgstr ""
+"Adjon meg valamilyen kiegészítő útvonalat pontosvesszőkkel elválasztva, "
+"amelyet a fordító ellenőrizni fog (például: "
+"/usr/share/gnoduino;/usr/local/share/gnoduino)"
+
+#: ../ui/main.ui.h:34
+msgid "Additional library paths:"
+msgstr "További programkönyvtár útvonalak:"
+
+#: ../ui/main.ui.h:35
+msgid "Replace All"
+msgstr "Összes cseréje"
+
+#: ../ui/main.ui.h:36
+msgid "Replace with:"
+msgstr "Csere ezzel:"
+
+#: ../ui/main.ui.h:37
+msgid "_File"
+msgstr "_Fájl"
+
+#: ../ui/main.ui.h:38
+msgid "Upload to I/O Board"
+msgstr "Feltöltés az I/O táblára"
+
+#: ../ui/main.ui.h:39
+msgid "Preferences"
+msgstr "Beállítások"
+
+#: ../ui/main.ui.h:40
+msgid "_Edit"
+msgstr "S_zerkesztés"
+
+#: ../ui/main.ui.h:41
+msgid "Sketch"
+msgstr "Vázlat"
+
+#: ../ui/main.ui.h:42
+msgid "Verify/Compile"
+msgstr "Ellenőrzés/Fordítás"
+
+#: ../ui/main.ui.h:43
+msgid "Stop"
+msgstr "Leállítás"
+
+#: ../ui/main.ui.h:44
+msgid "Add File..."
+msgstr "Fájl hozzáadása…"
+
+#: ../ui/main.ui.h:45
+msgid "Tools"
+msgstr "Eszközök"
+
+#: ../ui/main.ui.h:46
+msgid "Serial Monitor"
+msgstr "Soros monitor"
+
+#: ../ui/main.ui.h:47
+msgid "Reset Board"
+msgstr "Tábla visszaállítása"
+
+#: ../ui/main.ui.h:48
+msgid "Board"
+msgstr "Tábla"
+
+#: ../ui/main.ui.h:49
+msgid "Serial Port"
+msgstr "Soros port"
+
+#: ../ui/main.ui.h:50
+msgid "Programmer"
+msgstr "Programozó"
+
+#: ../ui/main.ui.h:51
+msgid "Burn Bootloader"
+msgstr "Rendszerbetöltő írása"
+
+#: ../ui/main.ui.h:52
+msgid "_Help"
+msgstr "_Súgó"
+
+#: ../ui/main.ui.h:53
+msgid "Reference"
+msgstr "Hivatkozás"
+
+#: ../ui/main.ui.h:54
+msgid "Compile"
+msgstr "Fordítás"
+
+#: ../ui/main.ui.h:56
+msgid "New"
+msgstr "Új"
+
+#: ../ui/main.ui.h:57
+msgid "Open"
+msgstr "Megnyitás"
+
+#: ../ui/main.ui.h:58
+msgid "Save"
+msgstr "Mentés"
+
+
