@@ -82,6 +82,7 @@ defc = [
 	"-Os",
 	"-ffunction-sections",
 	"-fdata-sections",
+	"-D__PROG_TYPES_COMPAT__",
 	]
 
 defcpp = [
@@ -93,6 +94,7 @@ defcpp = [
 	"-fno-exceptions",
 	"-ffunction-sections",
 	"-fdata-sections",
+	"-D__PROG_TYPES_COMPAT__",
 	]
 
 defar = [
