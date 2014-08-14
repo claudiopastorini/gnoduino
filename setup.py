@@ -126,7 +126,7 @@ def get_data_files():
         ('share/icons/hicolor/64x64/apps', ['pixmaps/64x64/gnoduino.png']),
         ('share/icons/hicolor/scalable/apps', ['pixmaps/gnoduino.svg']),
     ]
-    for subdir in ("hardware", "libraries", "reference"):
+    for subdir in ("hardware", "libraries", "examples", "reference"):
         # We ship hardware/libraries/reference modules if not already installed
         if forcesdk is True or not os.path.exists(os.path.join(sys.prefix, "share", "arduino", subdir)):
             for dirpath, dirnames, filenames in os.walk(subdir):
