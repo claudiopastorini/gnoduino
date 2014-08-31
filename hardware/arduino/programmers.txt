@@ -28,3 +28,7 @@ arduinoisp.speed=19200
 mysmartusblight.name=mySmartUSB light
 mysmartusblight.communication=serial
 mysmartusblight.protocol=stk500v2
+
+buspirate.name=Bus Pirate
+buspirate.communication=serial
+buspirate.protocol=buspirate
