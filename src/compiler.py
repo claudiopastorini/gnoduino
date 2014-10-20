@@ -343,8 +343,9 @@ def validateLib(library, tempobj, flags, output, notify):
 	paths = ["", misc.getArduinoLibsPath(), misc.getLocalPath()]
 	if config.user_library != None and config.user_library != -1:
 		paths.extend(i.strip() for i in config.user_library.split(';'))
-	paths.append(os.path.dirname(config.sketchFile))
-	paths.append(os.path.abspath(os.path.join(os.path.dirname(config.sketchFile), "..")))
+	if config.sketchFile:
+		paths.append(os.path.dirname(config.sketchFile))
+		paths.append(os.path.abspath(os.path.join(os.path.dirname(config.sketchFile), "..")))
 	dirs = ["", "utility"]
 	b = board.Board()
 	res = []

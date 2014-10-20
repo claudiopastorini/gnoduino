@@ -95,22 +95,24 @@ def findIncludes(instr, local=False):
 				os.path.exists(z.strip(".h").upper())):
 			my.append(z.strip(".h"))
 
-		sketchPath = os.path.dirname(config.sketchFile)
-		"is this really required"
-		if local and os.path.exists(sketchPath):
-			my.append(sketchPath)
+		if config.sketchFile:
+			sketchPath = os.path.dirname(config.sketchFile)
+			"is this really required"
+			if local and os.path.exists(sketchPath):
+				my.append(sketchPath)
 
-		sp = os.path.join(sketchPath, z.strip(".h"))
-		if local and os.path.exists(sp):
-			my.append(sp)
+			sp = os.path.join(sketchPath, z.strip(".h"))
+			if local and os.path.exists(sp):
+				my.append(sp)
 
-		sp = os.path.abspath(os.path.join(sketchPath, ".."))
-		if local and os.path.exists(sp):
-			my.append(sp)
+			sp = os.path.abspath(os.path.join(sketchPath, ".."))
+			if local and os.path.exists(sp):
+				my.append(sp)
 
-		sp = os.path.abspath(os.path.join(sketchPath, "..", z.strip(".h")))
-		if local and os.path.exists(sp):
-			my.append(sp)
+			sp = os.path.abspath(os.path.join(sketchPath, "..", z.strip(".h")))
+			if local and os.path.exists(sp):
+				my.append(sp)
+
 
 	for z in l:
 		for r, d, f in os.walk(misc.getArduinoLibsPath()):
