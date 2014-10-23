@@ -37,7 +37,7 @@ def firstStatement(instr):
 	return m.end(0)
 
 def lastInclude(instr):
-	m = re.finditer(r"^#include\s+[\w+\".<>\-]+", instr, re.M)
+	m = re.finditer(r"^#include\s+[\w+\".<>\-/]+", instr, re.M)
 	try:
 		return max(enumerate(m))[1].end()
 	except:
