@@ -704,6 +704,7 @@ def setSerial(w, id):
 			ser.resetBoard()
 			ser.serial.close()
 		ser.serial.port = id
+		ser.serial.baudrate = config.serial_baud_rate
 		ser.serial.open()
 		p.setValue("serial.port", id)
 		p.saveValues()
@@ -959,11 +960,11 @@ def run():
 		misc.setConsoleTags(tw)
 
 		"""setup default serial port"""
-		getSerialPorts()
-		populateSerialPortMenu()
-		sertime = glib.timeout_add(1000, getSerialPorts)
 		if config.serial_baud_rate == -1:
 			config.serial_baud_rate = p.getSafeValue("serial.debug_rate", p.getDefaultValue("serial.debug_rate"))
+		getSerialPorts()
+		populateSerialPortMenu()
+		glib.timeout_add(1000, getSerialPorts)
 		createRecentMenu()
 		populateExamples()
 		populateImport()
