@@ -309,7 +309,7 @@ msgstr "Shoda velikosti písmen"
 
 #: ../ui/main.ui.h:26
 msgid "Search backwards"
-msgstr "Hledat od konce k začátku"
+msgstr "Hledat směrem k začátku"
 
 #: ../ui/main.ui.h:27
 msgid "Editor font size"
