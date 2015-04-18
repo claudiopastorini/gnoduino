@@ -46,7 +46,9 @@ class sconsole:
 		ports = []
 		tryports = glob.glob('/dev/ttyS*') + glob.glob('/dev/ttyUSB*') + glob.glob('/dev/ttyACM*')
 		for i in tryports:
-			if i == config.cur_serial_port: continue
+			if i == config.cur_serial_port:
+				ports.append(i)
+				continue
 			try:
 				s = serial.Serial(i)
 				ports.append(s.portstr)
