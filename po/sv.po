@@ -1,216 +1,231 @@
 # Swedish translation for gnoduino.
-# Copyright (C) 2011 Free Software Foundation, Inc.
+# Copyright © 2011-2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnoduino package.
 # Daniel Nylander <po@danielnylander.se>, 2011.
+# Sebastian Rasmussen <sebras@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnoduino\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-07 14:00+0200\n"
-"PO-Revision-Date: 2011-10-07 14:06+0100\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gnoduino&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-05-02 06:00+0000\n"
+"PO-Revision-Date: 2015-03-02 23:41+0100\n"
+"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
-"Language: \n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
 
-#: ../src/board.py:38
-msgid "Cannot load BOARDS file. Exiting."
-msgstr "Kan inte läsa in BOARDS-filen. Avslutar."
+#: ../src/compiler.py:137
+msgid "Compiling..."
+msgstr "Kompilerar…"
 
-#: ../src/board.py:41
+#: ../src/compiler.py:156 ../src/compiler.py:162 ../src/compiler.py:168
+#: ../src/compiler.py:175 ../src/compiler.py:193 ../src/compiler.py:224
+msgid "Compile Error"
+msgstr "Kompileringsfel"
+
+#: ../src/compiler.py:254
+msgid "Linking error"
+msgstr "Länkfel"
+
+#: ../src/compiler.py:266 ../src/compiler.py:279
+msgid "Object error"
+msgstr "Objektfel"
+
+#: ../src/compiler.py:285
+msgid "Done compiling."
+msgstr "Kompileringen lyckades."
+
+#: ../src/compiler.py:289
+#, python-format
+msgid "Binary sketch size: %s bytes (of a %s bytes maximum)\n"
+msgstr "Binär skisstorlek: %s byte (av %s byte maximalt)\n"
+
+#: ../src/compiler.py:377 ../src/compiler.py:402
+msgid "Library Error"
+msgstr "Biblioteksfel"
+
+#: ../src/misc.py:54
+#, python-format
+msgid ""
+"Unable to locate %s\n"
+"Arduino SDK missing or broken."
+msgstr ""
+"Kan inte hitta %s\n"
+"Arduino-SDK saknas eller är trasigt."
+
+#: ../src/misc.py:148
+#, python-format
+msgid "Cannot load %s file. Exiting."
+msgstr "Kan inte läsa in %s-fil. Avslutar."
+
+#: ../src/misc.py:151
 #, python-format
 msgid "Error reading %s file. File is corrupt. Installation problem.\n"
 msgstr "Fel vid läsning av filen %s. Filen är skadad. Installationsproblem.\n"
 
-#: ../src/compiler.py:125
-msgid "Compiling..."
-msgstr "Kompilerar..."
+#: ../src/misc.py:278
+msgid "Error compiling."
+msgstr "Kompileringen misslyckades."
 
-#: ../src/compiler.py:152
-#: ../src/compiler.py:170
-#: ../src/compiler.py:185
-#: ../src/compiler.py:207
-msgid "Compile Error"
-msgstr "Kompileringsfel"
-
-#: ../src/compiler.py:233
-msgid "Linking error"
-msgstr "Länkfel"
-
-#: ../src/compiler.py:245
-#: ../src/compiler.py:258
-msgid "Object error"
-msgstr "Objektfel"
-
-#: ../src/compiler.py:264
-msgid "Done compilling."
-msgstr "Kompileringen är färdig."
-
-#: ../src/compiler.py:268
-#, python-format
-msgid "Binary sketch size: %s bytes (of a %s bytes maximum)\n"
-msgstr ""
-
-#: ../src/compiler.py:322
-#: ../src/compiler.py:345
-msgid "Library Error"
-msgstr "Biblioteksfel"
-
-#: ../src/misc.py:52
-#, python-format
-msgid "Cannot find %s"
-msgstr "Kan inte hitta %s"
-
-#: ../src/misc.py:185
-msgid "Error compilling."
-msgstr ""
-
-#: ../src/misc.py:255
+#: ../src/misc.py:349
 msgid "Close without Saving"
 msgstr "Stäng utan att spara"
 
-#: ../src/misc.py:257
+#: ../src/misc.py:351
 msgid "If you don't save, changes will be permanently lost."
-msgstr ""
+msgstr "Om du inte sparar kommer ändringarna att gå förlorade."
 
-#: ../src/programmer.py:39
-msgid "Cannot find PROGRAMMERS"
-msgstr "Kan inte hitta PROGRAMMERS"
-
-#: ../src/programmer.py:42
-#, python-format
-msgid "Error reading %s file. File is corrupt. Installation problem."
-msgstr "Fel vid läsning av filen %s. Filen är skadad. Installationsproblem."
-
-#: ../src/serialio.py:92
+#: ../src/serialio.py:113
 msgid ""
 "Serial port not configured!\n"
 "Use Tools->Serial Port to configure port."
 msgstr ""
+"Serieport inte konfigurerad\n"
+"Använd Verktyg->Serieport för att konfigurera port."
 
-#: ../src/srcview.py:148
-#: ../src/srcview.py:158
+#: ../src/srcview.py:161 ../src/srcview.py:171 ../src/srcview.py:241
+#: ../src/srcview.py:252
 #, python-format
 msgid "'%s' not found."
-msgstr "\"%s\" hittades inte."
+msgstr "”%s” hittades inte."
 
-#: ../src/ui.py:67
-#: ../src/ui.py:87
-#: ../src/ui.py:100
-#: ../src/ui.py:168
-#: ../src/ui.py:183
+#: ../src/srcview.py:292 ../src/srcview.py:301
+#, python-format
+msgid "A total of %s replacements made."
+msgstr "Totalt %s ersättningar gjorda."
+
+#: ../src/ui.py:69 ../src/ui.py:91 ../src/ui.py:109 ../src/ui.py:180
+#: ../src/ui.py:195
 msgid "Untitled"
 msgstr "Namnlös"
 
-#: ../src/ui.py:68
+#: ../src/ui.py:70
 msgid "Save document"
 msgstr "Spara dokument"
 
-#: ../src/ui.py:69
+#: ../src/ui.py:71
 #, python-format
 msgid ""
 "Save changes to document \"%s\"\n"
 " before closing?"
 msgstr ""
-"Spara ändringar i dokumentet \"%s\"\n"
+"Spara ändringar i dokumentet ”%s”\n"
 " innan stängning?"
 
-#: ../src/ui.py:177
+#: ../src/ui.py:189
 msgid "Save file"
 msgstr "Spara fil"
 
-#: ../src/ui.py:194
+#: ../src/ui.py:206
 msgid "Open file"
 msgstr "Öppna fil"
 
-#: ../src/ui.py:220
+#: ../src/ui.py:232
 #, python-format
 msgid "<b>A file named %s already exists. Do you want to replace it?</b>"
 msgstr "<b>En fil med namnet %s finns redan. Vill du ersätta den?</b>"
 
-#: ../src/ui.py:221
+#: ../src/ui.py:233
 #, python-format
-msgid "The file already exists in \"%s\". Replacing it will overwrite its contents."
-msgstr "Filen finns redan i \"%s\". Ersätter du den så skrivs innehållet över."
+msgid ""
+"The file already exists in \"%s\". Replacing it will overwrite its contents."
+msgstr "Filen finns redan i ”%s”. Ersätter du den så skrivs innehållet över."
 
-#: ../src/ui.py:505
+#: ../src/ui.py:561
 msgid "Open Recent"
 msgstr "Öppna tidigare"
 
-#: ../src/ui.py:540
-#: ../ui/main.ui.h:41
+#: ../src/ui.py:596 ../ui/main.ui.h:59
 msgid "Send"
 msgstr "Skicka"
 
-#: ../src/ui.py:541
+#: ../src/ui.py:597
 msgid "Clear"
 msgstr "Töm"
 
-#: ../src/ui.py:576
+#: ../src/ui.py:635
 #, python-format
 msgid "%s baud"
 msgstr "%s baud"
 
-#: ../src/ui.py:668
-#: ../src/ui.py:674
-#: ../src/ui.py:680
+#: ../src/ui.py:648
+#, python-format
+msgid "New device found on '%s'."
+msgstr "Ny enhet hittad på ”%s”."
+
+#: ../src/ui.py:835
+msgid "E_xamples"
+msgstr "E_xempel"
+
+#: ../src/ui.py:856
+msgid "Import Library"
+msgstr "Importera bibliotek"
+
+#: ../src/ui.py:862 ../ui/main.ui.h:55
+msgid "Upload"
+msgstr "Skicka upp"
+
+#: ../src/ui.py:869
+msgid "Upload using programmer"
+msgstr "Skicka upp via programmerare"
+
+#: ../src/ui.py:908 ../src/ui.py:914 ../src/ui.py:920
 msgid "System error"
 msgstr "Systemfel"
 
-#: ../src/ui.py:683
+#: ../src/ui.py:923
 msgid "Cannot load ui file"
-msgstr ""
+msgstr "Kan inte ladda ui-fil"
 
-#: ../src/ui.py:789
+#: ../src/ui.py:1007
 msgid "--help    Print the command line options"
 msgstr "--help    Skriv ut kommandoradsflaggor"
 
-#: ../src/ui.py:790
+#: ../src/ui.py:1008
 msgid "--version Output version information and exit"
 msgstr "--version Skriv ut versionsinformation och avsluta"
 
 #: ../src/uploader.py:54
 msgid "Burning bootloader..."
-msgstr ""
+msgstr "Bränner starthanterare…"
 
-#: ../src/uploader.py:77
-#: ../src/uploader.py:80
-#: ../src/uploader.py:96
-#: ../src/uploader.py:99
-msgid "Burn Error"
-msgstr ""
-
-#: ../src/uploader.py:80
-#: ../src/uploader.py:99
-msgid "Burn ERROR."
-msgstr ""
-
-#: ../src/uploader.py:102
-msgid "Burn complete."
-msgstr ""
-
-#: ../src/uploader.py:110
-msgid "Flashing..."
-msgstr ""
-
-#: ../src/uploader.py:115
+#: ../src/uploader.py:67 ../src/uploader.py:102 ../src/uploader.py:154
+#: ../src/uploader.py:168
 msgid "Flashing error."
-msgstr ""
+msgstr "Flashningsfel."
 
-#: ../src/uploader.py:135
+#: ../src/uploader.py:93 ../src/uploader.py:124
+msgid "Burn Error"
+msgstr "Bränningsfel"
+
+#: ../src/uploader.py:93 ../src/uploader.py:124
+msgid "Burn ERROR."
+msgstr "Brännings-FEL."
+
+#: ../src/uploader.py:127
+msgid "Burn complete."
+msgstr "Bränning klar."
+
+#: ../src/uploader.py:136
+msgid "Flashing..."
+msgstr "Flashar…"
+
+#: ../src/uploader.py:187
 msgid "Flashing Error"
-msgstr ""
+msgstr "Flashningsfel"
 
-#: ../src/uploader.py:135
+#: ../src/uploader.py:187
 msgid "Flash ERROR.\n"
-msgstr ""
+msgstr "Flashnings-FEL.\n"
 
-#: ../src/uploader.py:138
+#: ../src/uploader.py:190
 msgid "Flashing complete."
-msgstr ""
+msgstr "Flashning klar."
 
 #: ../ui/arduino.xml.h:1
 msgid "Arduino"
@@ -218,177 +233,208 @@ msgstr "Arduino"
 
 #: ../ui/arduino.xml.h:2
 msgid "Arduino color scheme"
-msgstr ""
+msgstr "Arduino-färgschema"
 
 #: ../ui/main.ui.h:1
-msgid ""
-"# gnoduino - Python Arduino IDE implementation\n"
-"# Copyright (C) 2010  Lucian Langa\n"
-"#\n"
-"# This program is free software; you can redistribute it and/or\n"
-"# modify it under the terms of the GNU General Public License\n"
-"# as published by the Free Software Foundation; either version 2\n"
-"# of the License, or (at your option) any later version.\n"
-"#\n"
-"# This program is distributed in the hope that it will be useful,\n"
-"# but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
-"# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
-"# GNU General Public License for more details.\n"
-"#\n"
-"# You should have received a copy of the GNU General Public License\n"
-"# along with this program; if not, write to the Free Software\n"
-"# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.\n"
-msgstr ""
-
-#: ../ui/main.ui.h:18
-msgid "Add File..."
-msgstr "Lägg till fil..."
-
-#: ../ui/main.ui.h:19
-msgid "Additional library paths:"
-msgstr ""
-
-#: ../ui/main.ui.h:20
-msgid "Auto Format"
-msgstr ""
-
-#: ../ui/main.ui.h:21
-msgid "Board"
-msgstr ""
-
-#: ../ui/main.ui.h:22
-msgid "Burn Bootloader"
-msgstr ""
-
-#: ../ui/main.ui.h:23
-msgid "Compile"
-msgstr "Kompilera"
-
-#: ../ui/main.ui.h:24
-msgid "Console font size"
-msgstr ""
-
-#: ../ui/main.ui.h:25
-msgid "Editor font size"
-msgstr ""
-
-#: ../ui/main.ui.h:26
-msgid "Enter any supplementary path that compiler will check for, separate them by semicolons. (eg /usr/share/gnoduino;/usr/local/share/gnoduino)"
-msgstr ""
-
-#: ../ui/main.ui.h:27
-msgid "Find Next"
-msgstr "Sök nästa"
-
-#: ../ui/main.ui.h:28
-msgid "GNOME Arduino IDE"
-msgstr "GNOME Arduino IDE"
-
-#: ../ui/main.ui.h:29
-msgid "Import Library"
-msgstr ""
-
-#: ../ui/main.ui.h:30
 msgid "Lucian Langa <lucilanga@gnome.org>"
 msgstr "Lucian Langa <lucilanga@gnome.org>"
 
-#: ../ui/main.ui.h:31
-msgid "Match case"
-msgstr "Matcha skiftläge"
+#: ../ui/main.ui.h:2
+msgid "GNOME Arduino IDE"
+msgstr "GNOME Arduino IDE"
 
-#: ../ui/main.ui.h:32
-msgid "Match entire word only"
-msgstr "Matcha endast hela ord"
-
-#: ../ui/main.ui.h:33
-msgid "New"
-msgstr "Ny"
-
-#: ../ui/main.ui.h:34
-msgid "Open"
-msgstr "Öppna"
-
-#: ../ui/main.ui.h:35
-msgid "Preferences"
-msgstr "Inställningar"
-
-#: ../ui/main.ui.h:36
-msgid "Reference"
-msgstr "Referens"
-
-#: ../ui/main.ui.h:37
-msgid "Reset Board"
-msgstr ""
-
-#: ../ui/main.ui.h:38
-msgid "Save"
-msgstr "Spara"
-
-#: ../ui/main.ui.h:39
-msgid "Search backwards"
-msgstr "Sök bakåt"
-
-#: ../ui/main.ui.h:40
-msgid "Search for:"
-msgstr "Sök efter:"
-
-#: ../ui/main.ui.h:42
-msgid "Serial Monitor"
-msgstr ""
-
-#: ../ui/main.ui.h:43
-msgid "Serial Port"
-msgstr "Serieport"
-
-#: ../ui/main.ui.h:44
-msgid "Show line numbers"
-msgstr "Visa radnummer"
-
-#: ../ui/main.ui.h:45
-msgid "Sketch"
-msgstr ""
-
-#: ../ui/main.ui.h:46
-msgid "Stop"
-msgstr "Stoppa"
-
-#: ../ui/main.ui.h:47
-msgid "Tools"
-msgstr "Verktyg"
-
-#: ../ui/main.ui.h:48
-msgid "Upload"
-msgstr ""
-
-#: ../ui/main.ui.h:49
-msgid "Upload to I/O Board"
-msgstr ""
-
-#: ../ui/main.ui.h:50
-msgid "Verbose build"
-msgstr ""
-
-#: ../ui/main.ui.h:51
-msgid "Verify/Compile"
-msgstr ""
-
-#: ../ui/main.ui.h:52
-msgid "Wrap around"
-msgstr ""
-
-#: ../ui/main.ui.h:53
-msgid "_Edit"
-msgstr "R_edigera"
-
-#: ../ui/main.ui.h:54
-msgid "_File"
-msgstr "_Arkiv"
-
-#: ../ui/main.ui.h:55
-msgid "_Help"
-msgstr "_Hjälp"
-
-#: ../ui/main.ui.h:56
+#: ../ui/main.ui.h:3
 msgid "gnoduino"
 msgstr "gnoduino"
 
+#: ../ui/main.ui.h:4
+msgid ""
+" gnoduino - Python Arduino IDE implementation\n"
+" Copyright (C) 2010-2012  Lucian Langa\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 2\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
+"USA.\n"
+msgstr ""
+" gnoduino - Python Arduino IDE-implementation\n"
+" Copyright (C) 2010-2012  Lucian Langa\n"
+"\n"
+"Detta program är fri programvara. Du kan distribuera det och/eller\n"
+"modifiera det under villkoren i GNU General Public License, publicerad\n"
+"av Free Software Foundation, antingen version 2 eller (om du så vill)\n"
+"någon senare version.\n"
+"\n"
+"Detta program distribueras i hopp om att det ska vara användbart,\n"
+"men UTAN NÅGON SOM HELST GARANTI, även utan underförstådd\n"
+"garanti om SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT SPECIELLT\n"
+"ÄNDAMÅL.  Se GNU General Public License för ytterligare information.\n"
+"\n"
+"Du bör ha fått en kopia av GNU General Public License tillsammans med\n"
+"detta program. Om inte, skriv till Free Software Foundation, Inc.,\n"
+"51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n"
+
+#: ../ui/main.ui.h:21
+msgid "translator-credits"
+msgstr ""
+"Sebastian Rasmussen.\n"
+"\n"
+"Skicka synpunkter på översättningen till tp-sv@listor.tp-sv.se"
+
+#: ../ui/main.ui.h:22
+msgid "Search for:"
+msgstr "Sök efter:"
+
+#: ../ui/main.ui.h:23
+msgid "Match entire word only"
+msgstr "Matcha endast hela ord"
+
+#: ../ui/main.ui.h:24
+msgid "Wrap around"
+msgstr "Radbrytning"
+
+#: ../ui/main.ui.h:25
+msgid "Match case"
+msgstr "Matcha skiftläge"
+
+#: ../ui/main.ui.h:26
+msgid "Search backwards"
+msgstr "Sök bakåt"
+
+#: ../ui/main.ui.h:27
+msgid "Editor font size"
+msgstr "Typsnittsstorlek för redigerare"
+
+#: ../ui/main.ui.h:28
+msgid "Console font size"
+msgstr "Typsnittsstorlek för konsol"
+
+#: ../ui/main.ui.h:29
+msgid "Verbose build"
+msgstr "Utförligt bygge"
+
+#: ../ui/main.ui.h:30
+msgid "Verbose upload"
+msgstr "Utförlig sändning"
+
+#: ../ui/main.ui.h:31
+msgid "Show line numbers"
+msgstr "Visa radnummer"
+
+#: ../ui/main.ui.h:32
+msgid "Sketchdir: "
+msgstr "Skissmapp:"
+
+#: ../ui/main.ui.h:33
+msgid ""
+"Enter any supplementary path that compiler will check for, separate them by "
+"semicolons. (eg /usr/share/gnoduino;/usr/local/share/gnoduino)"
+msgstr ""
+"Mata in extra sökväg som kompilatorn kommer att kontrollera, separera dem "
+"med semikolon. (t.ex. /usr/share/gnoduino;/usr/local/share/gnoduino)"
+
+#: ../ui/main.ui.h:34
+msgid "Additional library paths:"
+msgstr "Extra bibliotekssökvägar:"
+
+#: ../ui/main.ui.h:35
+msgid "Replace All"
+msgstr "Ersätt alla"
+
+#: ../ui/main.ui.h:36
+msgid "Replace with:"
+msgstr "Ersätt med:"
+
+#: ../ui/main.ui.h:37
+msgid "_File"
+msgstr "_Arkiv"
+
+#: ../ui/main.ui.h:38
+msgid "Upload to I/O Board"
+msgstr "Skicka upp till I/O-bräda"
+
+#: ../ui/main.ui.h:39
+msgid "Preferences"
+msgstr "Inställningar"
+
+#: ../ui/main.ui.h:40
+msgid "_Edit"
+msgstr "R_edigera"
+
+#: ../ui/main.ui.h:41
+msgid "Sketch"
+msgstr "Skiss"
+
+#: ../ui/main.ui.h:42
+msgid "Verify/Compile"
+msgstr "Verifiera/Kompilera"
+
+#: ../ui/main.ui.h:43
+msgid "Stop"
+msgstr "Stoppa"
+
+#: ../ui/main.ui.h:44
+msgid "Add File..."
+msgstr "Lägg till fil…"
+
+#: ../ui/main.ui.h:45
+msgid "Tools"
+msgstr "Verktyg"
+
+#: ../ui/main.ui.h:46
+msgid "Serial Monitor"
+msgstr "Seriemonitor"
+
+#: ../ui/main.ui.h:47
+msgid "Reset Board"
+msgstr "Starta om bräda"
+
+#: ../ui/main.ui.h:48
+msgid "Board"
+msgstr "Bräda"
+
+#: ../ui/main.ui.h:49
+msgid "Serial Port"
+msgstr "Serieport"
+
+#: ../ui/main.ui.h:50
+msgid "Programmer"
+msgstr "Programmerare"
+
+#: ../ui/main.ui.h:51
+msgid "Burn Bootloader"
+msgstr "Bränn starthanterare"
+
+#: ../ui/main.ui.h:52
+msgid "_Help"
+msgstr "_Hjälp"
+
+#: ../ui/main.ui.h:53
+msgid "Reference"
+msgstr "Referens"
+
+#: ../ui/main.ui.h:54
+msgid "Compile"
+msgstr "Kompilera"
+
+#: ../ui/main.ui.h:56
+msgid "New"
+msgstr "Ny"
+
+#: ../ui/main.ui.h:57
+msgid "Open"
+msgstr "Öppna"
+
+#: ../ui/main.ui.h:58
+msgid "Save"
+msgstr "Spara"
