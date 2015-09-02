@@ -4,14 +4,14 @@
 # pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
 # gnomepl@aviary.pl
 # -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Piotr Drąg <piotrdrag@gmail.com>, 2012-2013.
-# Aviary.pl <gnomepl@aviary.pl>, 2012-2013.
+# Piotr Drąg <piotrdrag@gmail.com>, 2012-2015.
+# Aviary.pl <gnomepl@aviary.pl>, 2012-2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnoduino\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-17 19:30+0200\n"
-"PO-Revision-Date: 2013-05-17 19:31+0200\n"
+"POT-Creation-Date: 2015-09-03 01:37+0200\n"
+"PO-Revision-Date: 2015-09-03 01:38+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -25,31 +25,31 @@ msgstr ""
 
 #: ../src/compiler.py:137
 msgid "Compiling..."
-msgstr "Kompilowanie..."
+msgstr "Kompilowanie…"
 
 #: ../src/compiler.py:156 ../src/compiler.py:162 ../src/compiler.py:168
-#: ../src/compiler.py:175 ../src/compiler.py:193 ../src/compiler.py:218
+#: ../src/compiler.py:175 ../src/compiler.py:193 ../src/compiler.py:224
 msgid "Compile Error"
 msgstr "Błąd kompilacji"
 
-#: ../src/compiler.py:248
+#: ../src/compiler.py:254
 msgid "Linking error"
 msgstr "Błąd konsolidacji"
 
-#: ../src/compiler.py:260 ../src/compiler.py:273
+#: ../src/compiler.py:266 ../src/compiler.py:279
 msgid "Object error"
 msgstr "Błąd obiektu"
 
-#: ../src/compiler.py:279
+#: ../src/compiler.py:285
 msgid "Done compiling."
 msgstr "Ukończono kompilowanie."
 
-#: ../src/compiler.py:283
+#: ../src/compiler.py:289
 #, python-format
 msgid "Binary sketch size: %s bytes (of a %s bytes maximum)\n"
 msgstr "Rozmiar binarnego pliku szkicu w bajtach: %s (maksymalnie: %s)\n"
 
-#: ../src/compiler.py:369 ../src/compiler.py:394
+#: ../src/compiler.py:377 ../src/compiler.py:402
 msgid "Library Error"
 msgstr "Błąd biblioteki"
 
@@ -74,15 +74,15 @@ msgstr ""
 "Błąd podczas odczytywania plik %s. Plik jest uszkodzony. Problem "
 "instalacji.\n"
 
-#: ../src/misc.py:275
+#: ../src/misc.py:278
 msgid "Error compiling."
 msgstr "Błąd podczas kompilowania."
 
-#: ../src/misc.py:346
+#: ../src/misc.py:349
 msgid "Close without Saving"
 msgstr "Zamknij bez zapisywania"
 
-#: ../src/misc.py:348
+#: ../src/misc.py:351
 msgid "If you don't save, changes will be permanently lost."
 msgstr ""
 "Jeżeli dokument nie zostanie zapisany, to zmiany zostaną bezpowrotnie "
@@ -94,144 +94,144 @@ msgid ""
 "Use Tools->Serial Port to configure port."
 msgstr ""
 "Port szeregowy nie jest skonfigurowany.\n"
-"Należy użyć Narzędzia->Port szeregowy, aby go skonfigurować."
+"Należy użyć Narzędzia → Port szeregowy, aby go skonfigurować."
 
-#: ../src/srcview.py:161 ../src/srcview.py:171 ../src/srcview.py:236
-#: ../src/srcview.py:246
+#: ../src/srcview.py:161 ../src/srcview.py:171 ../src/srcview.py:241
+#: ../src/srcview.py:252
 #, python-format
 msgid "'%s' not found."
-msgstr "Nie odnaleziono \"%s\"."
+msgstr "Nie odnaleziono „%s”."
 
-#: ../src/srcview.py:283
+#: ../src/srcview.py:292 ../src/srcview.py:301
 #, python-format
 msgid "A total of %s replacements made."
 msgstr "Wprowadzono razem %s zastąpień."
 
-#: ../src/ui.py:68 ../src/ui.py:90 ../src/ui.py:108 ../src/ui.py:179
-#: ../src/ui.py:194
+#: ../src/ui.py:69 ../src/ui.py:91 ../src/ui.py:109 ../src/ui.py:180
+#: ../src/ui.py:195
 msgid "Untitled"
 msgstr "Bez tytułu"
 
-#: ../src/ui.py:69
+#: ../src/ui.py:70
 msgid "Save document"
 msgstr "Zapisz dokument"
 
-#: ../src/ui.py:70
+#: ../src/ui.py:71
 #, python-format
 msgid ""
 "Save changes to document \"%s\"\n"
 " before closing?"
 msgstr ""
-"Zapisać zmiany w dokumencie \"%s\"\n"
+"Zapisać zmiany w dokumencie „%s”\n"
 " przed zamknięciem?"
 
-#: ../src/ui.py:188
+#: ../src/ui.py:189
 msgid "Save file"
 msgstr "Zapisz plik"
 
-#: ../src/ui.py:205
+#: ../src/ui.py:206
 msgid "Open file"
 msgstr "Otwórz plik"
 
-#: ../src/ui.py:231
+#: ../src/ui.py:232
 #, python-format
 msgid "<b>A file named %s already exists. Do you want to replace it?</b>"
 msgstr "<b>Plik o nazwie %s już istnieje. Zastąpić go?</b>"
 
-#: ../src/ui.py:232
+#: ../src/ui.py:233
 #, python-format
 msgid ""
 "The file already exists in \"%s\". Replacing it will overwrite its contents."
-msgstr "Plik już istnieje w \"%s\". Zastąpienie go nadpisze jego zawartość."
+msgstr "Plik już istnieje w „%s”. Zastąpienie go nadpisze jego zawartość."
 
-#: ../src/ui.py:549
+#: ../src/ui.py:561
 msgid "Open Recent"
 msgstr "Otwórz ostatnie"
 
-#: ../src/ui.py:584 ../ui/main.ui.h:61
+#: ../src/ui.py:596 ../ui/main.ui.h:59
 msgid "Send"
 msgstr "Wyślij"
 
-#: ../src/ui.py:585
+#: ../src/ui.py:597
 msgid "Clear"
 msgstr "Wyczyść"
 
-#: ../src/ui.py:623
+#: ../src/ui.py:635
 #, python-format
 msgid "%s baud"
-msgstr "%s baudów"
+msgstr "Baudy: %s"
 
-#: ../src/ui.py:636
+#: ../src/ui.py:648
 #, python-format
 msgid "New device found on '%s'."
-msgstr "Odnaleziono nowe urządzenie w \"%s\"."
+msgstr "Odnaleziono nowe urządzenie w „%s”."
 
-#: ../src/ui.py:823
+#: ../src/ui.py:835
 msgid "E_xamples"
 msgstr "_Przykłady"
 
-#: ../src/ui.py:844
+#: ../src/ui.py:856
 msgid "Import Library"
 msgstr "Zaimportuj bibliotekę"
 
-#: ../src/ui.py:850 ../ui/main.ui.h:57
+#: ../src/ui.py:862 ../ui/main.ui.h:55
 msgid "Upload"
 msgstr "Wyślij"
 
-#: ../src/ui.py:857
+#: ../src/ui.py:869
 msgid "Upload using programmer"
 msgstr "Wysyła używając programatora"
 
-#: ../src/ui.py:896 ../src/ui.py:902 ../src/ui.py:908
+#: ../src/ui.py:908 ../src/ui.py:914 ../src/ui.py:920
 msgid "System error"
 msgstr "Błąd systemu"
 
-#: ../src/ui.py:911
+#: ../src/ui.py:923
 msgid "Cannot load ui file"
 msgstr "Nie można wczytać pliku interfejsu użytkownika"
 
-#: ../src/ui.py:995
+#: ../src/ui.py:1007
 msgid "--help    Print the command line options"
 msgstr "--help    Wyświetla opcje wiersza poleceń"
 
-#: ../src/ui.py:996
+#: ../src/ui.py:1008
 msgid "--version Output version information and exit"
 msgstr "--version Wyświetla informacje o wersji i kończy działanie"
 
 #: ../src/uploader.py:54
 msgid "Burning bootloader..."
-msgstr "Nagrywanie programu startowego..."
+msgstr "Nagrywanie programu startowego…"
 
-#: ../src/uploader.py:67 ../src/uploader.py:101 ../src/uploader.py:149
-#: ../src/uploader.py:162
+#: ../src/uploader.py:67 ../src/uploader.py:102 ../src/uploader.py:154
+#: ../src/uploader.py:168
 msgid "Flashing error."
 msgstr "Błąd podczas zapisywania w pamięci flash."
 
-#: ../src/uploader.py:92 ../src/uploader.py:123
+#: ../src/uploader.py:93 ../src/uploader.py:124
 msgid "Burn Error"
 msgstr "Błąd nagrywania"
 
-#: ../src/uploader.py:92 ../src/uploader.py:123
+#: ../src/uploader.py:93 ../src/uploader.py:124
 msgid "Burn ERROR."
 msgstr "BŁĄD nagrywania."
 
-#: ../src/uploader.py:126
+#: ../src/uploader.py:127
 msgid "Burn complete."
 msgstr "Ukończono nagrywanie."
 
-#: ../src/uploader.py:135
+#: ../src/uploader.py:136
 msgid "Flashing..."
-msgstr "Zapisywanie w pamięci flash..."
+msgstr "Zapisywanie w pamięci flash…"
 
-#: ../src/uploader.py:181
+#: ../src/uploader.py:187
 msgid "Flashing Error"
 msgstr "Błąd podczas zapisywania w pamięci flash"
 
-#: ../src/uploader.py:181
+#: ../src/uploader.py:187
 msgid "Flash ERROR.\n"
 msgstr "BŁĄD zapisywania w pamięci flash.\n"
 
-#: ../src/uploader.py:184
+#: ../src/uploader.py:190
 msgid "Flashing complete."
 msgstr "Ukończono zapisywanie w pamięci flash."
 
@@ -275,32 +275,32 @@ msgid ""
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
 "USA.\n"
 msgstr ""
-" gnoduino - implementacja środowiska programistycznego Arduino w języku "
+" gnoduino — implementacja środowiska programistycznego Arduino w języku "
 "Python\n"
-" Copyright (C) 2010-2012  Lucian Langa\n"
+" Copyright © 2010-2012 Lucian Langa\n"
 "\n"
 "Niniejszy program jest wolnym oprogramowaniem; można go rozprowadzać\n"
 "dalej i/lub modyfikować na warunkach Powszechnej Licencji Publicznej\n"
 "GNU, wydanej przez Fundację Wolnego Oprogramowania (Free Software\n"
-"Foundation) - według wersji drugiej tej Licencji lub którejś z\n"
+"Foundation) — według wersji drugiej tej Licencji lub którejś z\n"
 "późniejszych wersji.\n"
 "\n"
 "Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on\n"
-"użyteczny - jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej\n"
+"użyteczny — jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej\n"
 "gwarancji PRZYDATNOŚCI HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH\n"
 "ZASTOSOWAŃ. W celu uzyskania bliższych informacji należy zapoznać\n"
 "się z Powszechną Licencją Publiczną GNU.\n"
 "\n"
 "Z pewnością wraz z niniejszym programem dostarczono także egzemplarz\n"
 "Powszechnej Licencji Publicznej GNU (GNU General Public License); jeśli\n"
-"nie - proszę napisać do Free Software Foundation, Inc., 51 Franklin\n"
+"nie — proszę napisać do Free Software Foundation, Inc., 51 Franklin\n"
 "Street, Fifth Floor, Boston, MA 02110-130159 USA.\n"
 
 #: ../ui/main.ui.h:21
 msgid "translator-credits"
 msgstr ""
-"Piotr Drąg <piotrdrag@gmail.com>, 2012-2013\n"
-"Aviary.pl <gnomepl@aviary.pl>, 2012-2013"
+"Piotr Drąg <piotrdrag@gmail.com>, 2012-2015\n"
+"Aviary.pl <gnomepl@aviary.pl>, 2012-2015"
 
 #: ../ui/main.ui.h:22
 msgid "Search for:"
@@ -384,77 +384,69 @@ msgid "_Edit"
 msgstr "_Edycja"
 
 #: ../ui/main.ui.h:41
-msgid "Find Next"
-msgstr "Znajdź następne"
-
-#: ../ui/main.ui.h:42
 msgid "Sketch"
 msgstr "Szkic"
 
-#: ../ui/main.ui.h:43
+#: ../ui/main.ui.h:42
 msgid "Verify/Compile"
 msgstr "Sprawdź/skompiluj"
 
-#: ../ui/main.ui.h:44
+#: ../ui/main.ui.h:43
 msgid "Stop"
 msgstr "Zatrzymaj"
 
-#: ../ui/main.ui.h:45
+#: ../ui/main.ui.h:44
 msgid "Add File..."
-msgstr "Dodaj plik..."
+msgstr "Dodaj plik…"
 
-#: ../ui/main.ui.h:46
+#: ../ui/main.ui.h:45
 msgid "Tools"
 msgstr "Narzędzia"
 
-#: ../ui/main.ui.h:47
-msgid "Auto Format"
-msgstr "Automatyczne formatowanie"
-
-#: ../ui/main.ui.h:48
+#: ../ui/main.ui.h:46
 msgid "Serial Monitor"
 msgstr "Monitor szeregowy"
 
-#: ../ui/main.ui.h:49
+#: ../ui/main.ui.h:47
 msgid "Reset Board"
 msgstr "Resetuj płytę"
 
-#: ../ui/main.ui.h:50
+#: ../ui/main.ui.h:48
 msgid "Board"
 msgstr "Płyta"
 
-#: ../ui/main.ui.h:51
+#: ../ui/main.ui.h:49
 msgid "Serial Port"
 msgstr "Port szeregowy"
 
-#: ../ui/main.ui.h:52
+#: ../ui/main.ui.h:50
 msgid "Programmer"
 msgstr "Programator"
 
-#: ../ui/main.ui.h:53
+#: ../ui/main.ui.h:51
 msgid "Burn Bootloader"
 msgstr "Nagraj program startowy"
 
-#: ../ui/main.ui.h:54
+#: ../ui/main.ui.h:52
 msgid "_Help"
 msgstr "Pomo_c"
 
-#: ../ui/main.ui.h:55
+#: ../ui/main.ui.h:53
 msgid "Reference"
 msgstr "Odniesienie"
 
-#: ../ui/main.ui.h:56
+#: ../ui/main.ui.h:54
 msgid "Compile"
 msgstr "Skompiluj"
 
-#: ../ui/main.ui.h:58
+#: ../ui/main.ui.h:56
 msgid "New"
 msgstr "Nowy"
 
-#: ../ui/main.ui.h:59
+#: ../ui/main.ui.h:57
 msgid "Open"
 msgstr "Otwórz"
 
-#: ../ui/main.ui.h:60
+#: ../ui/main.ui.h:58
 msgid "Save"
 msgstr "Zapisz"
