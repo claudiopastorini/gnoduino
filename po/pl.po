@@ -294,7 +294,7 @@ msgstr ""
 "Z pewnością wraz z niniejszym programem dostarczono także egzemplarz\n"
 "Powszechnej Licencji Publicznej GNU (GNU General Public License); jeśli\n"
 "nie — proszę napisać do Free Software Foundation, Inc., 51 Franklin\n"
-"Street, Fifth Floor, Boston, MA 02110-130159 USA.\n"
+"Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
 
 #: ../ui/main.ui.h:21
 msgid "translator-credits"
