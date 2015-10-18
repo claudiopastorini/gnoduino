@@ -1,53 +1,54 @@
 # Catalan translation of gnoduino.
 # Copyright © 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnoduino package.
-# Gil Forcada <gilforcada@guifi.net>, 2013.
 #
+# Gil Forcada <gilforcada@guifi.net>, 2013.
+# Carles Ferrando Garcia <carles.ferrando@gmail.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnoduino\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gnoduino&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-03-16 23:15+0000\n"
-"PO-Revision-Date: 2013-04-17 10:19+0200\n"
-"Last-Translator: Gil Forcada <gilforcada@guifi.net>\n"
-"Language-Team: Catalan <tradgnome@softcatala.org>\n"
+"POT-Creation-Date: 2015-09-24 06:17+0000\n"
+"PO-Revision-Date: 2015-09-24 16:47+0200\n"
+"Last-Translator: Carles Ferrando Garcia <carles.ferrando@gmail.com>\n"
+"Language-Team: Catalan <Catalan <info@softcatala.org>>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bits\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../src/compiler.py:137
 msgid "Compiling..."
-msgstr ""
+msgstr "S'està compilant..."
 
 #: ../src/compiler.py:156 ../src/compiler.py:162 ../src/compiler.py:168
-#: ../src/compiler.py:175 ../src/compiler.py:193 ../src/compiler.py:218
+#: ../src/compiler.py:175 ../src/compiler.py:193 ../src/compiler.py:224
 msgid "Compile Error"
-msgstr ""
+msgstr "Error de compilació"
 
-#: ../src/compiler.py:248
+#: ../src/compiler.py:254
 msgid "Linking error"
-msgstr ""
+msgstr "Error d'enllaçat"
 
-#: ../src/compiler.py:260 ../src/compiler.py:273
+#: ../src/compiler.py:266 ../src/compiler.py:279
 msgid "Object error"
-msgstr ""
+msgstr "Error d'objecte"
 
-#: ../src/compiler.py:279
+#: ../src/compiler.py:285
 msgid "Done compiling."
-msgstr ""
+msgstr "Compilació enllestida."
 
-#: ../src/compiler.py:283
+#: ../src/compiler.py:289
 #, python-format
 msgid "Binary sketch size: %s bytes (of a %s bytes maximum)\n"
-msgstr ""
+msgstr "Mida d'esbós binari: %s bytes (d'un màxim de %s bytes)\n"
 
-#: ../src/compiler.py:369 ../src/compiler.py:394
+#: ../src/compiler.py:377 ../src/compiler.py:402
 msgid "Library Error"
-msgstr ""
+msgstr "Error de biblioteca"
 
 #: ../src/misc.py:54
 #, python-format
@@ -55,26 +56,30 @@ msgid ""
 "Unable to locate %s\n"
 "Arduino SDK missing or broken."
 msgstr ""
+"No es pot localitzar %s\n"
+"Arduino SDK desaparegut o trencat."
 
 #: ../src/misc.py:148
 #, python-format
 msgid "Cannot load %s file. Exiting."
-msgstr ""
+msgstr "No es pot carregar el fitxer %s. S'està sortint."
 
 #: ../src/misc.py:151
 #, python-format
 msgid "Error reading %s file. File is corrupt. Installation problem.\n"
 msgstr ""
+"Error en llegir el fitxer %s. El fitxer està corrupte. Hi ha un problema en "
+"la instal·lació.\n"
 
-#: ../src/misc.py:275
+#: ../src/misc.py:278
 msgid "Error compiling."
-msgstr ""
+msgstr "Error en la compilació."
 
-#: ../src/misc.py:346
+#: ../src/misc.py:349
 msgid "Close without Saving"
 msgstr "Tanca sense desar"
 
-#: ../src/misc.py:348
+#: ../src/misc.py:351
 msgid "If you don't save, changes will be permanently lost."
 msgstr "Si no ho deseu, es perdran els canvis per sempre més."
 
@@ -83,158 +88,170 @@ msgid ""
 "Serial port not configured!\n"
 "Use Tools->Serial Port to configure port."
 msgstr ""
+"El port sèrie no està configurat!\n"
+"Usa Eines-> Port sèrie per configurar el port."
 
-#: ../src/srcview.py:161 ../src/srcview.py:171
+#: ../src/srcview.py:161 ../src/srcview.py:171 ../src/srcview.py:241
+#: ../src/srcview.py:252
 #, python-format
 msgid "'%s' not found."
-msgstr ""
+msgstr "«%s» no s'ha trobat."
 
-#: ../src/ui.py:66 ../src/ui.py:88 ../src/ui.py:106 ../src/ui.py:177
-#: ../src/ui.py:192
+#: ../src/srcview.py:292 ../src/srcview.py:301
+#, python-format
+msgid "A total of %s replacements made."
+msgstr "S'han fet un total de %s reemplaçaments."
+
+#: ../src/ui.py:69 ../src/ui.py:91 ../src/ui.py:109 ../src/ui.py:180
+#: ../src/ui.py:195
 msgid "Untitled"
 msgstr "Sense títol"
 
-#: ../src/ui.py:67
+#: ../src/ui.py:70
 msgid "Save document"
 msgstr "Desa el document"
 
-#: ../src/ui.py:68
+#: ../src/ui.py:71
 #, python-format
 msgid ""
 "Save changes to document \"%s\"\n"
 " before closing?"
 msgstr ""
+"Voleu desar el canvis al document «%s»\n"
+"abans de tancar?"
 
-#: ../src/ui.py:186
+#: ../src/ui.py:189
 msgid "Save file"
 msgstr "Desa el fitxer"
 
-#: ../src/ui.py:203
+#: ../src/ui.py:206
 msgid "Open file"
 msgstr "Obre un fitxer"
 
-#: ../src/ui.py:229
+#: ../src/ui.py:232
 #, python-format
 msgid "<b>A file named %s already exists. Do you want to replace it?</b>"
-msgstr ""
+msgstr "<b>Ja existeix un fitxer anomenat %s. Voleu reemplaçar-lo?</b>"
 
-#: ../src/ui.py:230
+#: ../src/ui.py:233
 #, python-format
 msgid ""
 "The file already exists in \"%s\". Replacing it will overwrite its contents."
 msgstr ""
+"El fitxer ja existeix a «%s». Reemplaçar-lo sobreescriurà el contingut."
 
-#: ../src/ui.py:531
+#: ../src/ui.py:561
 msgid "Open Recent"
-msgstr ""
+msgstr "Obre un recent"
 
-#: ../src/ui.py:566 ../ui/main.ui.h:59
+#: ../src/ui.py:596 ../ui/main.ui.h:59
 msgid "Send"
 msgstr "Envia"
 
-#: ../src/ui.py:567
+#: ../src/ui.py:597
 msgid "Clear"
 msgstr "Neteja"
 
-#: ../src/ui.py:605
+#: ../src/ui.py:635
 #, python-format
 msgid "%s baud"
-msgstr ""
+msgstr "%s baud"
 
-#: ../src/ui.py:755
+#: ../src/ui.py:648
+#, python-format
+msgid "New device found on '%s'."
+msgstr "S'ha trobat un dispositiu nou a «%s»."
+
+#: ../src/ui.py:835
 msgid "E_xamples"
-msgstr ""
+msgstr "E_xemples"
 
-#: ../src/ui.py:776
+#: ../src/ui.py:856
 msgid "Import Library"
-msgstr ""
+msgstr "Importa biblioteca"
 
-#: ../src/ui.py:782 ../ui/main.ui.h:55
+#: ../src/ui.py:862 ../ui/main.ui.h:55
 msgid "Upload"
-msgstr "Penja"
+msgstr "Puja"
 
-#: ../src/ui.py:789
+#: ../src/ui.py:869
 msgid "Upload using programmer"
-msgstr ""
+msgstr "Puja usant el programador"
 
-#: ../src/ui.py:828 ../src/ui.py:834 ../src/ui.py:840
+#: ../src/ui.py:908 ../src/ui.py:914 ../src/ui.py:920
 msgid "System error"
-msgstr ""
+msgstr "Error de sistema"
 
-#: ../src/ui.py:843
+#: ../src/ui.py:923
 msgid "Cannot load ui file"
-msgstr ""
+msgstr "No es pot carregar el fitxer ui"
 
-#: ../src/ui.py:958
+#: ../src/ui.py:1007
 msgid "--help    Print the command line options"
-msgstr ""
+msgstr "--help   Mostra les opcions de la línia d'ordres"
 
-#: ../src/ui.py:959
+#: ../src/ui.py:1008
 msgid "--version Output version information and exit"
-msgstr ""
+msgstr "--version   Mostra informació de la versió i surt"
 
 #: ../src/uploader.py:54
 msgid "Burning bootloader..."
-msgstr ""
+msgstr "S'està gravant el carregador de l'arrencada..."
 
-#: ../src/uploader.py:67 ../src/uploader.py:101 ../src/uploader.py:149
-#: ../src/uploader.py:162
+#: ../src/uploader.py:67 ../src/uploader.py:102 ../src/uploader.py:154
+#: ../src/uploader.py:168
 msgid "Flashing error."
-msgstr ""
+msgstr "Error d'escriptura."
 
-#: ../src/uploader.py:92 ../src/uploader.py:123
+#: ../src/uploader.py:93 ../src/uploader.py:124
 msgid "Burn Error"
-msgstr ""
+msgstr "Error de gravació"
 
-#: ../src/uploader.py:92 ../src/uploader.py:123
+#: ../src/uploader.py:93 ../src/uploader.py:124
 msgid "Burn ERROR."
-msgstr ""
+msgstr "ERROR de gravació."
 
-#: ../src/uploader.py:126
+#: ../src/uploader.py:127
 msgid "Burn complete."
-msgstr ""
+msgstr "Gravació completa."
 
-#: ../src/uploader.py:135
+#: ../src/uploader.py:136
 msgid "Flashing..."
-msgstr ""
+msgstr "S'està escrivint la memòria..."
 
-#: ../src/uploader.py:181
+#: ../src/uploader.py:187
 msgid "Flashing Error"
-msgstr ""
+msgstr "Error en escriure la memòria"
 
-#: ../src/uploader.py:181
+#: ../src/uploader.py:187
 msgid "Flash ERROR.\n"
-msgstr ""
+msgstr "Error d'escriptura de la memòria.\n"
 
-#: ../src/uploader.py:184
+#: ../src/uploader.py:190
 msgid "Flashing complete."
-msgstr ""
+msgstr "Escriptura de la memòria completa."
 
 #: ../ui/arduino.xml.h:1
 msgid "Arduino"
-msgstr ""
+msgstr "Arduino"
 
 #: ../ui/arduino.xml.h:2
 msgid "Arduino color scheme"
-msgstr ""
+msgstr "Esquema de color d'Arduino"
 
 #: ../ui/main.ui.h:1
 msgid "Lucian Langa <lucilanga@gnome.org>"
-msgstr ""
+msgstr "Lucian Langa <lucilanga@gnome.org>"
 
 #: ../ui/main.ui.h:2
 msgid "GNOME Arduino IDE"
-msgstr ""
+msgstr "Entorn de desenvolupament integrat d'Arduino al GNOME"
 
 #: ../ui/main.ui.h:3
 msgid "gnoduino"
-msgstr ""
+msgstr "gnoduino"
 
 #: ../ui/main.ui.h:4
-msgid "translator-credits"
-msgstr "Gil Forcada <gilforcada@guifi.net>"
-
-#: ../ui/main.ui.h:5
 msgid ""
 " gnoduino - Python Arduino IDE implementation\n"
 " Copyright (C) 2010-2012  Lucian Langa\n"
@@ -254,6 +271,29 @@ msgid ""
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
 "USA.\n"
 msgstr ""
+" gnoduino - Python Arduino IDE implementation\n"
+" Copyright (C) 2010-2012  Lucian Langa\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 2\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
+"USA.\n"
+
+#: ../ui/main.ui.h:21
+msgid "translator-credits"
+msgstr ""
+"Gil Forcada <gilforcada@guifi.net> Carles Ferrando <carles.ferrando@gmail."
+"com>"
 
 #: ../ui/main.ui.h:22
 msgid "Search for:"
@@ -261,35 +301,35 @@ msgstr "Cerca:"
 
 #: ../ui/main.ui.h:23
 msgid "Match entire word only"
-msgstr ""
+msgstr "Coincidència només amb la paraula sencera"
 
 #: ../ui/main.ui.h:24
 msgid "Wrap around"
-msgstr ""
+msgstr "Continua des de l'inici"
 
 #: ../ui/main.ui.h:25
 msgid "Match case"
-msgstr ""
+msgstr "Coincidència de majúscules i minúscules"
 
 #: ../ui/main.ui.h:26
 msgid "Search backwards"
-msgstr ""
+msgstr "Cerca cap endarrere"
 
 #: ../ui/main.ui.h:27
 msgid "Editor font size"
-msgstr ""
+msgstr "Mida del tipus de lletra de l'editor"
 
 #: ../ui/main.ui.h:28
 msgid "Console font size"
-msgstr ""
+msgstr "Mida del tipus de lletra del terminal"
 
 #: ../ui/main.ui.h:29
 msgid "Verbose build"
-msgstr ""
+msgstr "Muntatge detallat"
 
 #: ../ui/main.ui.h:30
 msgid "Verbose upload"
-msgstr ""
+msgstr "Pujada detallada"
 
 #: ../ui/main.ui.h:31
 msgid "Show line numbers"
@@ -297,69 +337,72 @@ msgstr "Mostra els números de línia"
 
 #: ../ui/main.ui.h:32
 msgid "Sketchdir: "
-msgstr ""
+msgstr "Carpeta dels esbossos:"
 
 #: ../ui/main.ui.h:33
 msgid ""
 "Enter any supplementary path that compiler will check for, separate them by "
 "semicolons. (eg /usr/share/gnoduino;/usr/local/share/gnoduino)"
 msgstr ""
+"Entreu qualsevol camí suplementari que el compilador hagi de comprovar, "
+"separant-los per punts i comes. (Ex:  /usr/share/gnoduino;/usr/local/share/"
+"gnoduino)"
 
 #: ../ui/main.ui.h:34
 msgid "Additional library paths:"
-msgstr ""
+msgstr "Camins addicionals a biblioteques:"
 
 #: ../ui/main.ui.h:35
+msgid "Replace All"
+msgstr "Reemplaça-ho tot"
+
+#: ../ui/main.ui.h:36
+msgid "Replace with:"
+msgstr "Reemplaça amb:"
+
+#: ../ui/main.ui.h:37
 msgid "_File"
 msgstr "_Fitxer"
 
-#: ../ui/main.ui.h:36
+#: ../ui/main.ui.h:38
 msgid "Upload to I/O Board"
-msgstr ""
+msgstr "Carrega a la E/S de la targeta"
 
-#: ../ui/main.ui.h:37
+#: ../ui/main.ui.h:39
 msgid "Preferences"
 msgstr "Preferències"
 
-#: ../ui/main.ui.h:38
+#: ../ui/main.ui.h:40
 msgid "_Edit"
 msgstr "_Edita"
 
-#: ../ui/main.ui.h:39
-msgid "Find Next"
-msgstr "Troba la següent"
-
-#: ../ui/main.ui.h:40
+#: ../ui/main.ui.h:41
 msgid "Sketch"
 msgstr "Esbós"
 
-#: ../ui/main.ui.h:41
-msgid "Verify/Compile"
-msgstr ""
-
 #: ../ui/main.ui.h:42
+msgid "Verify/Compile"
+msgstr "Verifica/Compila"
+
+#: ../ui/main.ui.h:43
 msgid "Stop"
 msgstr "Atura"
 
-#: ../ui/main.ui.h:43
-msgid "Add File..."
-msgstr ""
-
 #: ../ui/main.ui.h:44
+msgid "Add File..."
+msgstr "Afegeix fitxer..."
+
+#: ../ui/main.ui.h:45
 msgid "Tools"
 msgstr "Eines"
 
-#: ../ui/main.ui.h:45
-msgid "Auto Format"
-msgstr ""
-
 #: ../ui/main.ui.h:46
 msgid "Serial Monitor"
-msgstr ""
+msgstr "Monitor sèrie"
 
 #: ../ui/main.ui.h:47
 msgid "Reset Board"
-msgstr ""
+msgstr "Restableix targeta"
 
 #: ../ui/main.ui.h:48
 msgid "Board"
@@ -367,15 +410,15 @@ msgstr "Targeta"
 
 #: ../ui/main.ui.h:49
 msgid "Serial Port"
-msgstr ""
+msgstr "Port sèrie"
 
 #: ../ui/main.ui.h:50
 msgid "Programmer"
-msgstr ""
+msgstr "Programador"
 
 #: ../ui/main.ui.h:51
 msgid "Burn Bootloader"
-msgstr ""
+msgstr "Grava el carregador de l'arrencada"
 
 #: ../ui/main.ui.h:52
 msgid "_Help"
@@ -400,3 +443,6 @@ msgstr "Obre"
 #: ../ui/main.ui.h:58
 msgid "Save"
 msgstr "Desa"
+
+#~ msgid "Find Next"
+#~ msgstr "Troba la següent"
