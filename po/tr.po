@@ -1,0 +1,443 @@
+# Turkish translation for gnoduino.
+# Copyright (C) 2015 gnoduino's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnoduino package.
+# Simge Sezgin <simgesezgin88@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnoduino master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gnoduino&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-06-01 05:56+0000\n"
+"PO-Revision-Date: 2015-12-31 22:53+0200\n"
+"Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.7\n"
+"X-POOTLE-MTIME: 1428351519.000000\n"
+
+#: ../src/compiler.py:139
+msgid "Compiling..."
+msgstr "Derleniyor..."
+
+#: ../src/compiler.py:158 ../src/compiler.py:164 ../src/compiler.py:170
+#: ../src/compiler.py:177 ../src/compiler.py:195 ../src/compiler.py:226
+msgid "Compile Error"
+msgstr "Derleme Hatası"
+
+#: ../src/compiler.py:256
+msgid "Linking error"
+msgstr "Bağlama hatası"
+
+#: ../src/compiler.py:268 ../src/compiler.py:281
+msgid "Object error"
+msgstr "Nesne hatası"
+
+#: ../src/compiler.py:287
+msgid "Done compiling."
+msgstr "Derleme tamamlandı."
+
+#: ../src/compiler.py:291
+#, python-format
+msgid "Binary sketch size: %s bytes (of a %s bytes maximum)\n"
+msgstr "İkili taslak boyutu: %s bayt(%s azami boyut)\n"
+
+#: ../src/compiler.py:380 ../src/compiler.py:405
+msgid "Library Error"
+msgstr "Kütüphane Hatası"
+
+#: ../src/misc.py:54
+#, python-format
+msgid ""
+"Unable to locate %s\n"
+"Arduino SDK missing or broken."
+msgstr ""
+"%s bulunamadı\n"
+"Arduino SDK eksik ya da bozuk."
+
+#: ../src/misc.py:148
+#, python-format
+msgid "Cannot load %s file. Exiting."
+msgstr "%s dosyası yüklenemiyor. Çıkılıyor."
+
+#: ../src/misc.py:151
+#, python-format
+msgid "Error reading %s file. File is corrupt. Installation problem.\n"
+msgstr "%s dosyası okunurken hata. Dosya bozuk. Kurulum sorunu.\n"
+
+#: ../src/misc.py:278
+msgid "Error compiling."
+msgstr "Derlenirken hata."
+
+#: ../src/misc.py:349
+msgid "Close without Saving"
+msgstr "Kaydetmeden Kapat"
+
+#: ../src/misc.py:351
+msgid "If you don't save, changes will be permanently lost."
+msgstr "Eğer kaydetmezseniz, değişiklikleriniz kalıcı olarak kaybolacaktır."
+
+#: ../src/serialio.py:116
+msgid ""
+"Serial port not configured!\n"
+"Use Tools->Serial Port to configure port."
+msgstr ""
+"Seri bağlantı noktası yapılandırılmamış!\n"
+"Bağlantı noktasını yapılandırmak için Araçlar->Seri Bağlantı Noktası "
+"seçeneğini kullanın."
+
+#: ../src/srcview.py:161 ../src/srcview.py:171 ../src/srcview.py:241
+#: ../src/srcview.py:252
+#, python-format
+msgid "'%s' not found."
+msgstr "'%s' bulunamadı."
+
+#: ../src/srcview.py:292 ../src/srcview.py:301
+#, python-format
+msgid "A total of %s replacements made."
+msgstr "Toplam %s değiştirme yapıldı."
+
+#: ../src/ui.py:69 ../src/ui.py:91 ../src/ui.py:109 ../src/ui.py:180
+#: ../src/ui.py:195
+msgid "Untitled"
+msgstr "Başlıksız"
+
+#: ../src/ui.py:70
+msgid "Save document"
+msgstr "Belge kaydet"
+
+#: ../src/ui.py:71
+#, python-format
+msgid ""
+"Save changes to document \"%s\"\n"
+" before closing?"
+msgstr ""
+"Kapatmadan önce\n"
+" değişiklikler \"%s\" belgesine kaydedilsin mi?"
+
+#: ../src/ui.py:189
+msgid "Save file"
+msgstr "Dosya kaydet"
+
+#: ../src/ui.py:206
+msgid "Open file"
+msgstr "Dosya aç"
+
+#: ../src/ui.py:232
+#, python-format
+msgid "<b>A file named %s already exists. Do you want to replace it?</b>"
+msgstr ""
+"<b>%s adında bir dosya zaten var. Bu dosyayı değiştirmek istiyor musunuz?</b>"
+
+#: ../src/ui.py:233
+#, python-format
+msgid ""
+"The file already exists in \"%s\". Replacing it will overwrite its contents."
+msgstr ""
+"\"%s\" konumunda dosya zaten var. Bunu değiştirme işlemi içeriğinin üzerine "
+"yazacak."
+
+#: ../src/ui.py:562
+msgid "Open Recent"
+msgstr "En Son Dosyayı Aç"
+
+#: ../src/ui.py:597 ../ui/main.ui.h:59
+msgid "Send"
+msgstr "Gönder"
+
+#: ../src/ui.py:598
+msgid "Clear"
+msgstr "Temizle"
+
+#: ../src/ui.py:636
+#, python-format
+msgid "%s baud"
+msgstr "%s bilgi akış hızı"
+
+#: ../src/ui.py:649
+#, python-format
+msgid "New device found on '%s'."
+msgstr "'%s' üzerinde yeni aygıt bulundu."
+
+#: ../src/ui.py:837
+msgid "E_xamples"
+msgstr "Ö_rnekler"
+
+#: ../src/ui.py:858
+msgid "Import Library"
+msgstr "Kütüphane İçeri Aktar"
+
+#: ../src/ui.py:864 ../ui/main.ui.h:55
+msgid "Upload"
+msgstr "Karşıya Yükle"
+
+#: ../src/ui.py:871
+msgid "Upload using programmer"
+msgstr "Programlayıcı kullanarak karşıya yükle"
+
+#: ../src/ui.py:910 ../src/ui.py:916 ../src/ui.py:922
+msgid "System error"
+msgstr "Sistem hatası"
+
+#: ../src/ui.py:925
+msgid "Cannot load ui file"
+msgstr "Kullanıcı arayüz dosyası yüklenemiyor"
+
+#: ../src/ui.py:1009
+msgid "--help    Print the command line options"
+msgstr "--help    Komut satırı seçeneklerini yazdır"
+
+#: ../src/ui.py:1010
+msgid "--version Output version information and exit"
+msgstr "--version Sürüm bilgisi çıktısı ve çıkış"
+
+#: ../src/uploader.py:54
+msgid "Burning bootloader..."
+msgstr "Önyükleyici yazılıyor..."
+
+#: ../src/uploader.py:67 ../src/uploader.py:102 ../src/uploader.py:154
+#: ../src/uploader.py:168
+msgid "Flashing error."
+msgstr "Yanıp sönme hatası."
+
+#: ../src/uploader.py:93 ../src/uploader.py:124
+msgid "Burn Error"
+msgstr "Yazdırma Hatası"
+
+#: ../src/uploader.py:93 ../src/uploader.py:124
+msgid "Burn ERROR."
+msgstr "Yazdırma HATASI."
+
+#: ../src/uploader.py:127
+msgid "Burn complete."
+msgstr "Yazdırma tamamlandı."
+
+#: ../src/uploader.py:136
+msgid "Flashing..."
+msgstr "Yanıp sönüyor..."
+
+#: ../src/uploader.py:187
+msgid "Flashing Error"
+msgstr "Yanıp Sönme Hatası"
+
+#: ../src/uploader.py:187
+msgid "Flash ERROR.\n"
+msgstr "Yanıp sönme HATASI.\n"
+
+#: ../src/uploader.py:190
+msgid "Flashing complete."
+msgstr "Yanıp sönme tamamlandı."
+
+#: ../ui/arduino.xml.h:1
+msgid "Arduino"
+msgstr "Arduino"
+
+#: ../ui/arduino.xml.h:2
+msgid "Arduino color scheme"
+msgstr "Arduino renk şeması"
+
+#: ../ui/main.ui.h:1
+msgid "Lucian Langa <lucilanga@gnome.org>"
+msgstr "Lucian Langa <lucilanga@gnome.org>"
+
+#: ../ui/main.ui.h:2
+msgid "GNOME Arduino IDE"
+msgstr "GNOME Arduino Geliştirme Ortamı"
+
+#: ../ui/main.ui.h:3
+msgid "gnoduino"
+msgstr "gnoduino"
+
+#: ../ui/main.ui.h:4
+msgid ""
+" gnoduino - Python Arduino IDE implementation\n"
+" Copyright (C) 2010-2012  Lucian Langa\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 2\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
+"USA.\n"
+msgstr ""
+" gnoduino - Python Arduino Geliştirme Ortamı Uygulaması\n"
+" Telif Hakkı (C) 2010-2012  Lucian Langa\n"
+"\n"
+"Bu program bir özgür yazılımdır; Özgür Yazılım Vakfı tarafından yayınlanan "
+"GNU Genel Kamu Lisansı 2. sürümü ya da (tercihinize bağlı olarak) sonraki "
+"sürümleri koşulları altında değiştirebilir ve/ya da yeniden "
+"dağıtabilirsiniz.\n"
+"\n"
+"Bu program kullanışlı olması maksadıyla dağıtılmaktadır, ancak HİÇBİR "
+"GARANTİSİ YOKTUR; aynı zamanda BİR AMACA UYGUNLUĞU ya da SATILABİLİRLİĞİ "
+"garanti etmez.  Daha fazla ayrıntı için GNU Genel Kamu Lisansını\n"
+"inceleyin.\n"
+"\n"
+"GNU Genel Kamu Lisansının bir kopyasını bu program ile almış olmalısınız; "
+"eğer almadıysanız, Free Software Foundation,\n"
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA adresine "
+"yazın.\n"
+
+#: ../ui/main.ui.h:21
+msgid "translator-credits"
+msgstr "simgeszgn@gmail.com"
+
+#: ../ui/main.ui.h:22
+msgid "Search for:"
+msgstr "Bunu ara:"
+
+#: ../ui/main.ui.h:23
+msgid "Match entire word only"
+msgstr "Sadece tüm kelimeyi eşleştir"
+
+#: ../ui/main.ui.h:24
+msgid "Wrap around"
+msgstr "Kaydır"
+
+#: ../ui/main.ui.h:25
+msgid "Match case"
+msgstr "Büyük küçük harf eşleştir"
+
+#: ../ui/main.ui.h:26
+msgid "Search backwards"
+msgstr "Geriye doğru ara"
+
+#: ../ui/main.ui.h:27
+msgid "Editor font size"
+msgstr "Yazı tipi boyutu düzenleyicisi"
+
+#: ../ui/main.ui.h:28
+msgid "Console font size"
+msgstr "Konsol yazı tipi boyutu"
+
+#: ../ui/main.ui.h:29
+msgid "Verbose build"
+msgstr "Ayrıntılı inşa"
+
+#: ../ui/main.ui.h:30
+msgid "Verbose upload"
+msgstr "Ayrıntılı karşıya yükleme"
+
+#: ../ui/main.ui.h:31
+msgid "Show line numbers"
+msgstr "Satır numaralarını göster"
+
+#: ../ui/main.ui.h:32
+msgid "Sketchdir: "
+msgstr "Taslak dizini: "
+
+#: ../ui/main.ui.h:33
+msgid ""
+"Enter any supplementary path that compiler will check for, separate them by "
+"semicolons. (eg /usr/share/gnoduino;/usr/local/share/gnoduino)"
+msgstr ""
+"Derleyicinin kontrol edeceği noktalı virgül ile ayrılmış herhangi bir ek yol "
+"girin. (örneğin,usr/share/gnoduino;/usr/local/share/gnoduino)"
+
+#: ../ui/main.ui.h:34
+msgid "Additional library paths:"
+msgstr "Ek kütüphane yolları:"
+
+#: ../ui/main.ui.h:35
+msgid "Replace All"
+msgstr "Tümünü Değiştir"
+
+#: ../ui/main.ui.h:36
+msgid "Replace with:"
+msgstr "Bununla değiştir:"
+
+#: ../ui/main.ui.h:37
+msgid "_File"
+msgstr "_Dosya"
+
+#: ../ui/main.ui.h:38
+msgid "Upload to I/O Board"
+msgstr "G/Ç Devre Tahtasına Yükle"
+
+#: ../ui/main.ui.h:39
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: ../ui/main.ui.h:40
+msgid "_Edit"
+msgstr "_Düzenle"
+
+#: ../ui/main.ui.h:41
+msgid "Sketch"
+msgstr "Taslak"
+
+#: ../ui/main.ui.h:42
+msgid "Verify/Compile"
+msgstr "Onayla/Derle"
+
+#: ../ui/main.ui.h:43
+msgid "Stop"
+msgstr "Dur"
+
+#: ../ui/main.ui.h:44
+msgid "Add File..."
+msgstr "Dosya Ekle..."
+
+#: ../ui/main.ui.h:45
+msgid "Tools"
+msgstr "Araçlar"
+
+#: ../ui/main.ui.h:46
+msgid "Serial Monitor"
+msgstr "Seri İzleme"
+
+#: ../ui/main.ui.h:47
+msgid "Reset Board"
+msgstr "Devre Kartını Sıfırla"
+
+#: ../ui/main.ui.h:48
+msgid "Board"
+msgstr "Devre Kartı"
+
+#: ../ui/main.ui.h:49
+msgid "Serial Port"
+msgstr "Seri Bağlantı Noktası"
+
+#: ../ui/main.ui.h:50
+msgid "Programmer"
+msgstr "Programlayıcı"
+
+#: ../ui/main.ui.h:51
+msgid "Burn Bootloader"
+msgstr "Önyükleyiciyi Yazdır"
+
+#: ../ui/main.ui.h:52
+msgid "_Help"
+msgstr "_Yardım"
+
+#: ../ui/main.ui.h:53
+msgid "Reference"
+msgstr "Kaynak"
+
+#: ../ui/main.ui.h:54
+msgid "Compile"
+msgstr "Derle"
+
+#: ../ui/main.ui.h:56
+msgid "New"
+msgstr "Yeni"
+
+#: ../ui/main.ui.h:57
+msgid "Open"
+msgstr "Aç"
+
+#: ../ui/main.ui.h:58
+msgid "Save"
+msgstr "Kaydet"
