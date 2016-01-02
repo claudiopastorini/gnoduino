@@ -1,54 +1,52 @@
 # German translation for gnoduino.
 # Copyright (C) 2011 gnoduino's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnoduino package.
-# Mario Blättermann <mariobl@freenet.de>, 2011.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2011, 2016.
 # Daniel Winzen <d@winzen4.de>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnoduino master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gnoduino&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-06-12 21:57+0000\n"
-"PO-Revision-Date: 2012-05-19 00:03+0200\n"
-"Last-Translator: Daniel Winzen <d@winzen4.de>\n"
+"POT-Creation-Date: 2016-01-02 19:41+0000\n"
+"PO-Revision-Date: 2016-01-02 23:50+0100\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
-"X-Poedit-Language: German\n"
-"X-Poedit-Country: GERMANY\n"
+"X-Generator: Poedit 1.8.6\n"
 "X-Project-Style: gnome\n"
 
-#: ../src/compiler.py:136
+#: ../src/compiler.py:137
 msgid "Compiling..."
 msgstr "Kompilierung läuft …"
 
-#: ../src/compiler.py:155 ../src/compiler.py:161 ../src/compiler.py:167
-#: ../src/compiler.py:174 ../src/compiler.py:192 ../src/compiler.py:217
+#: ../src/compiler.py:156 ../src/compiler.py:162 ../src/compiler.py:168
+#: ../src/compiler.py:175 ../src/compiler.py:193 ../src/compiler.py:224
 msgid "Compile Error"
 msgstr "Kompilierfehler"
 
-#: ../src/compiler.py:247
+#: ../src/compiler.py:254
 msgid "Linking error"
 msgstr "Linker-Fehler"
 
-#: ../src/compiler.py:259 ../src/compiler.py:272
+#: ../src/compiler.py:266 ../src/compiler.py:279
 msgid "Object error"
 msgstr "Objektfehler"
 
-#: ../src/compiler.py:278
+#: ../src/compiler.py:285
 msgid "Done compiling."
 msgstr "Kompilierung abgeschlossen."
 
-#: ../src/compiler.py:282
+#: ../src/compiler.py:289
 #, python-format
 msgid "Binary sketch size: %s bytes (of a %s bytes maximum)\n"
 msgstr "Binäre Sketchgröße %s Byte (von maximal %s Byte)\n"
 
-#: ../src/compiler.py:363 ../src/compiler.py:388
+#: ../src/compiler.py:377 ../src/compiler.py:402
 msgid "Library Error"
 msgstr "Bibliotheksfehler"
 
@@ -73,20 +71,20 @@ msgstr ""
 "Fehler beim Lesen der Datei %s. Die Datei ist beschädigt. "
 "Installationsfehler.\n"
 
-#: ../src/misc.py:275
+#: ../src/misc.py:278
 msgid "Error compiling."
 msgstr "Kompilierfehler."
 
-#: ../src/misc.py:346
+#: ../src/misc.py:349
 msgid "Close without Saving"
 msgstr "Schließen, ohne zu speichern"
 
-#: ../src/misc.py:348
+#: ../src/misc.py:351
 msgid "If you don't save, changes will be permanently lost."
 msgstr ""
 "Wenn Sie nicht speichern, werden die Änderungen unwiderruflich verworfen."
 
-#: ../src/serialio.py:92
+#: ../src/serialio.py:113
 msgid ""
 "Serial port not configured!\n"
 "Use Tools->Serial Port to configure port."
@@ -94,21 +92,27 @@ msgstr ""
 "Serieller Anschluss ist nicht eingerichtet.\n"
 "Verwenden Sie Werkzeuge->Serieller Anschluss zur Konfiguration."
 
-#: ../src/srcview.py:149 ../src/srcview.py:159
+#: ../src/srcview.py:161 ../src/srcview.py:171 ../src/srcview.py:241
+#: ../src/srcview.py:252
 #, python-format
 msgid "'%s' not found."
 msgstr "»%s« nicht gefunden."
 
-#: ../src/ui.py:66 ../src/ui.py:86 ../src/ui.py:99 ../src/ui.py:167
-#: ../src/ui.py:182
+#: ../src/srcview.py:292 ../src/srcview.py:301
+#, python-format
+msgid "A total of %s replacements made."
+msgstr "%s Ersetzungen wurden ausgeführt."
+
+#: ../src/ui.py:69 ../src/ui.py:91 ../src/ui.py:109 ../src/ui.py:180
+#: ../src/ui.py:195
 msgid "Untitled"
 msgstr "Unbenannt"
 
-#: ../src/ui.py:67
+#: ../src/ui.py:70
 msgid "Save document"
 msgstr "Dokument speichern"
 
-#: ../src/ui.py:68
+#: ../src/ui.py:71
 #, python-format
 msgid ""
 "Save changes to document \"%s\"\n"
@@ -117,21 +121,21 @@ msgstr ""
 "Änderungen am Dokument »%s«\n"
 "vor dem Schließen speichern?"
 
-#: ../src/ui.py:176
+#: ../src/ui.py:189
 msgid "Save file"
 msgstr "Datei speichern"
 
-#: ../src/ui.py:193
+#: ../src/ui.py:206
 msgid "Open file"
 msgstr "Datei öffnen"
 
-#: ../src/ui.py:219
+#: ../src/ui.py:232
 #, python-format
 msgid "<b>A file named %s already exists. Do you want to replace it?</b>"
 msgstr ""
 "<b>Eine Datei namens »%s« existiert bereits. Möchten Sie diese ersetzen?</b>"
 
-#: ../src/ui.py:220
+#: ../src/ui.py:233
 #, python-format
 msgid ""
 "The file already exists in \"%s\". Replacing it will overwrite its contents."
@@ -139,48 +143,57 @@ msgstr ""
 "Die Datei existiert bereits in »%s«. Durch ihr Ersetzen wird sämtlicher "
 "Inhalt überschrieben."
 
-#: ../src/ui.py:525
+#: ../src/ui.py:561
 msgid "Open Recent"
 msgstr "Zuletzt geöffnete Dateien öffnen"
 
-#: ../src/ui.py:560 ../ui/main.ui.h:59
+#: ../src/ui.py:596 ../ui/main.ui.h:59
 msgid "Send"
 msgstr "Senden"
 
-#: ../src/ui.py:561
+#: ../src/ui.py:597
 msgid "Clear"
 msgstr "Leeren"
 
-#: ../src/ui.py:599
+#: ../src/ui.py:635
 #, python-format
 msgid "%s baud"
 msgstr "%s baud"
 
-#: ../src/ui.py:717
+#: ../src/ui.py:648
+#, python-format
+msgid "New device found on '%s'."
+msgstr "Neues Gerät in »%s« gefunden."
+
+#: ../src/ui.py:835
 msgid "E_xamples"
 msgstr "B_eispiele"
 
-#: ../src/ui.py:723 ../ui/main.ui.h:55
+#: ../src/ui.py:856
+msgid "Import Library"
+msgstr "Bibliothek importieren"
+
+#: ../src/ui.py:862 ../ui/main.ui.h:55
 msgid "Upload"
 msgstr "Hochladen"
 
-#: ../src/ui.py:730
+#: ../src/ui.py:869
 msgid "Upload using programmer"
-msgstr ""
+msgstr "Mit Programmierer hochladen"
 
-#: ../src/ui.py:769 ../src/ui.py:775 ../src/ui.py:781
+#: ../src/ui.py:908 ../src/ui.py:914 ../src/ui.py:920
 msgid "System error"
 msgstr "Systemfehler"
 
-#: ../src/ui.py:784
+#: ../src/ui.py:923
 msgid "Cannot load ui file"
 msgstr "UI-Datei konnte nicht geladen werden"
 
-#: ../src/ui.py:899
+#: ../src/ui.py:1007
 msgid "--help    Print the command line options"
 msgstr "--help    Befehlszeilenoptionen anzeigen"
 
-#: ../src/ui.py:900
+#: ../src/ui.py:1008
 msgid "--version Output version information and exit"
 msgstr "--version Versionsnummer anzeigen und beenden"
 
@@ -188,36 +201,36 @@ msgstr "--version Versionsnummer anzeigen und beenden"
 msgid "Burning bootloader..."
 msgstr "Bootloader wird geschrieben …"
 
-#: ../src/uploader.py:67 ../src/uploader.py:101 ../src/uploader.py:149
-#: ../src/uploader.py:162
+#: ../src/uploader.py:67 ../src/uploader.py:102 ../src/uploader.py:154
+#: ../src/uploader.py:168
 msgid "Flashing error."
 msgstr "Fehler beim Flashen."
 
-#: ../src/uploader.py:92 ../src/uploader.py:123
+#: ../src/uploader.py:93 ../src/uploader.py:124
 msgid "Burn Error"
 msgstr "Brennfehler"
 
-#: ../src/uploader.py:92 ../src/uploader.py:123
+#: ../src/uploader.py:93 ../src/uploader.py:124
 msgid "Burn ERROR."
 msgstr "Brennfehler."
 
-#: ../src/uploader.py:126
+#: ../src/uploader.py:127
 msgid "Burn complete."
 msgstr "Brennen abgeschlossen."
 
-#: ../src/uploader.py:135
+#: ../src/uploader.py:136
 msgid "Flashing..."
 msgstr "Flashen …"
 
-#: ../src/uploader.py:181
+#: ../src/uploader.py:187
 msgid "Flashing Error"
 msgstr "Fehler beim Flashen"
 
-#: ../src/uploader.py:181
+#: ../src/uploader.py:187
 msgid "Flash ERROR.\n"
 msgstr "Flash-FEHLER.\n"
 
-#: ../src/uploader.py:184
+#: ../src/uploader.py:190
 msgid "Flashing complete."
 msgstr "Flashen abgeschlossen."
 
@@ -284,50 +297,56 @@ msgstr ""
 "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n"
 
 #: ../ui/main.ui.h:21
+msgid "translator-credits"
+msgstr ""
+"Mario Blättermann <mario.blaettermann@gmail.com>,\n"
+"Daniel Winzen <d@winzen4.de>"
+
+#: ../ui/main.ui.h:22
 msgid "Search for:"
 msgstr "Suchen nach:"
 
-#: ../ui/main.ui.h:22
+#: ../ui/main.ui.h:23
 msgid "Match entire word only"
 msgstr "Nur vollständige Wörter berücksichtigen"
 
-#: ../ui/main.ui.h:23
+#: ../ui/main.ui.h:24
 msgid "Wrap around"
 msgstr "Umbrechen"
 
-#: ../ui/main.ui.h:24
+#: ../ui/main.ui.h:25
 msgid "Match case"
 msgstr "Groß-/Kleinschreibung berücksichtigen"
 
-#: ../ui/main.ui.h:25
+#: ../ui/main.ui.h:26
 msgid "Search backwards"
 msgstr "Rückwärts suchen"
 
-#: ../ui/main.ui.h:26
+#: ../ui/main.ui.h:27
 msgid "Editor font size"
 msgstr "Schriftgröße für Editor"
 
-#: ../ui/main.ui.h:27
+#: ../ui/main.ui.h:28
 msgid "Console font size"
 msgstr "Schriftgröße für Konsole"
 
-#: ../ui/main.ui.h:28
+#: ../ui/main.ui.h:29
 msgid "Verbose build"
 msgstr "Auführliche Erstellung"
 
-#: ../ui/main.ui.h:29
+#: ../ui/main.ui.h:30
 msgid "Verbose upload"
 msgstr "Auführliches Hochladen"
 
-#: ../ui/main.ui.h:30
+#: ../ui/main.ui.h:31
 msgid "Show line numbers"
 msgstr "Zeilennummern anzeigen"
 
-#: ../ui/main.ui.h:31
+#: ../ui/main.ui.h:32
 msgid "Sketchdir: "
 msgstr "Sketchdir: "
 
-#: ../ui/main.ui.h:32
+#: ../ui/main.ui.h:33
 msgid ""
 "Enter any supplementary path that compiler will check for, separate them by "
 "semicolons. (eg /usr/share/gnoduino;/usr/local/share/gnoduino)"
@@ -335,57 +354,53 @@ msgstr ""
 "Geben Sie zusätzliche Pfade ein, die der Compiler berücksichtigen soll, "
 "durch Semikola getrennt. z.B. /usr/share/gnoduino;/usr/local/share/gnoduino)"
 
-#: ../ui/main.ui.h:33
+#: ../ui/main.ui.h:34
 msgid "Additional library paths:"
 msgstr "Pfade zu zusätzlichen Bibliotheken:"
 
-#: ../ui/main.ui.h:34
+#: ../ui/main.ui.h:35
+msgid "Replace All"
+msgstr "Alle ersetzen"
+
+#: ../ui/main.ui.h:36
+msgid "Replace with:"
+msgstr "Ersetzen durch:"
+
+#: ../ui/main.ui.h:37
 msgid "_File"
 msgstr "_Datei"
 
-#: ../ui/main.ui.h:35
+#: ../ui/main.ui.h:38
 msgid "Upload to I/O Board"
 msgstr "Zum I/O-Board übertragen"
 
-#: ../ui/main.ui.h:36
+#: ../ui/main.ui.h:39
 msgid "Preferences"
 msgstr "Einstellungen"
 
-#: ../ui/main.ui.h:37
+#: ../ui/main.ui.h:40
 msgid "_Edit"
 msgstr "_Bearbeiten"
 
-#: ../ui/main.ui.h:38
-msgid "Find Next"
-msgstr "Weitersuchen"
-
-#: ../ui/main.ui.h:39
+#: ../ui/main.ui.h:41
 msgid "Sketch"
 msgstr "Sketch"
 
-#: ../ui/main.ui.h:40
+#: ../ui/main.ui.h:42
 msgid "Verify/Compile"
 msgstr "Überprüfen/kompilieren"
 
-#: ../ui/main.ui.h:41
+#: ../ui/main.ui.h:43
 msgid "Stop"
 msgstr "Stop"
 
-#: ../ui/main.ui.h:42
-msgid "Import Library"
-msgstr "Bibliothek importieren"
-
-#: ../ui/main.ui.h:43
+#: ../ui/main.ui.h:44
 msgid "Add File..."
 msgstr "Datei hinzufügen …"
 
-#: ../ui/main.ui.h:44
+#: ../ui/main.ui.h:45
 msgid "Tools"
 msgstr "Werkzeuge"
-
-#: ../ui/main.ui.h:45
-msgid "Auto Format"
-msgstr "Automatisch formatieren"
 
 #: ../ui/main.ui.h:46
 msgid "Serial Monitor"
@@ -435,13 +450,3 @@ msgstr "Öffnen"
 msgid "Save"
 msgstr "Speichern"
 
-#~ msgid "Cannot find %s"
-#~ msgstr "»%s» kann nicht gefunden werden"
-
-#~ msgid "Cannot find PROGRAMMERS"
-#~ msgstr "PROGRAMMERS kann nicht gefunden werden"
-
-#~ msgid "Error reading %s file. File is corrupt. Installation problem."
-#~ msgstr ""
-#~ "Fehler beim Lesen der Datei %s. Die Datei ist beschädigt. "
-#~ "Installationsfehler."
