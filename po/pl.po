@@ -1,55 +1,51 @@
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Aviary.pl
-# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
-# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
-# gnomepl@aviary.pl
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Piotr Drąg <piotrdrag@gmail.com>, 2012-2015.
-# Aviary.pl <gnomepl@aviary.pl>, 2012-2015.
+# Polish translation for gnoduino.
+# Copyright © 2012-2016 the gnoduino authors.
+# This file is distributed under the same license as the gnoduino package.
+# Piotr Drąg <piotrdrag@gmail.com>, 2012-2016.
+# Aviary.pl <community-poland@mozilla.org>, 2012-2016.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnoduino\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-03 01:37+0200\n"
-"PO-Revision-Date: 2015-09-03 01:38+0200\n"
+"POT-Creation-Date: 2016-08-19 19:50+0200\n"
+"PO-Revision-Date: 2016-08-19 19:51+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <gnomepl@aviary.pl>\n"
+"Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Poedit-Language: Polish\n"
-"X-Poedit-Country: Poland\n"
 
-#: ../src/compiler.py:137
+#: ../src/compiler.py:139
 msgid "Compiling..."
 msgstr "Kompilowanie…"
 
-#: ../src/compiler.py:156 ../src/compiler.py:162 ../src/compiler.py:168
-#: ../src/compiler.py:175 ../src/compiler.py:193 ../src/compiler.py:224
+#: ../src/compiler.py:158 ../src/compiler.py:164 ../src/compiler.py:170
+#: ../src/compiler.py:177 ../src/compiler.py:195 ../src/compiler.py:226
 msgid "Compile Error"
 msgstr "Błąd kompilacji"
 
-#: ../src/compiler.py:254
+#: ../src/compiler.py:256
 msgid "Linking error"
 msgstr "Błąd konsolidacji"
 
-#: ../src/compiler.py:266 ../src/compiler.py:279
+#: ../src/compiler.py:268 ../src/compiler.py:281
 msgid "Object error"
 msgstr "Błąd obiektu"
 
-#: ../src/compiler.py:285
+#: ../src/compiler.py:287
 msgid "Done compiling."
 msgstr "Ukończono kompilowanie."
 
-#: ../src/compiler.py:289
+#: ../src/compiler.py:291
 #, python-format
 msgid "Binary sketch size: %s bytes (of a %s bytes maximum)\n"
-msgstr "Rozmiar binarnego pliku szkicu w bajtach: %s (maksymalnie: %s)\n"
+msgstr "Rozmiar binarnego pliku szkicu w bajtach: %s (maksymalnie: %s)\n"
 
-#: ../src/compiler.py:377 ../src/compiler.py:402
+#: ../src/compiler.py:380 ../src/compiler.py:405
 msgid "Library Error"
 msgstr "Błąd biblioteki"
 
@@ -88,7 +84,7 @@ msgstr ""
 "Jeżeli dokument nie zostanie zapisany, to zmiany zostaną bezpowrotnie "
 "utracone."
 
-#: ../src/serialio.py:113
+#: ../src/serialio.py:116
 msgid ""
 "Serial port not configured!\n"
 "Use Tools->Serial Port to configure port."
@@ -122,7 +118,7 @@ msgid ""
 "Save changes to document \"%s\"\n"
 " before closing?"
 msgstr ""
-"Zapisać zmiany w dokumencie „%s”\n"
+"Zapisać zmiany w dokumencie „%s”\n"
 " przed zamknięciem?"
 
 #: ../src/ui.py:189
@@ -136,67 +132,67 @@ msgstr "Otwórz plik"
 #: ../src/ui.py:232
 #, python-format
 msgid "<b>A file named %s already exists. Do you want to replace it?</b>"
-msgstr "<b>Plik o nazwie %s już istnieje. Zastąpić go?</b>"
+msgstr "<b>Plik o nazwie %s już istnieje. Zastąpić go?</b>"
 
 #: ../src/ui.py:233
 #, python-format
 msgid ""
 "The file already exists in \"%s\". Replacing it will overwrite its contents."
-msgstr "Plik już istnieje w „%s”. Zastąpienie go nadpisze jego zawartość."
+msgstr "Plik już istnieje w „%s”. Zastąpienie go nadpisze jego zawartość."
 
-#: ../src/ui.py:561
+#: ../src/ui.py:562
 msgid "Open Recent"
 msgstr "Otwórz ostatnie"
 
-#: ../src/ui.py:596 ../ui/main.ui.h:59
+#: ../src/ui.py:597 ../ui/main.ui.h:59
 msgid "Send"
 msgstr "Wyślij"
 
-#: ../src/ui.py:597
+#: ../src/ui.py:598
 msgid "Clear"
 msgstr "Wyczyść"
 
-#: ../src/ui.py:635
+#: ../src/ui.py:636
 #, python-format
 msgid "%s baud"
 msgstr "Baudy: %s"
 
-#: ../src/ui.py:648
+#: ../src/ui.py:649
 #, python-format
 msgid "New device found on '%s'."
-msgstr "Odnaleziono nowe urządzenie w „%s”."
+msgstr "Odnaleziono nowe urządzenie w „%s”."
 
-#: ../src/ui.py:835
+#: ../src/ui.py:837
 msgid "E_xamples"
 msgstr "_Przykłady"
 
-#: ../src/ui.py:856
+#: ../src/ui.py:858
 msgid "Import Library"
 msgstr "Zaimportuj bibliotekę"
 
-#: ../src/ui.py:862 ../ui/main.ui.h:55
+#: ../src/ui.py:864 ../ui/main.ui.h:55
 msgid "Upload"
 msgstr "Wyślij"
 
-#: ../src/ui.py:869
+#: ../src/ui.py:871
 msgid "Upload using programmer"
 msgstr "Wysyła używając programatora"
 
-#: ../src/ui.py:908 ../src/ui.py:914 ../src/ui.py:920
+#: ../src/ui.py:910 ../src/ui.py:916 ../src/ui.py:922
 msgid "System error"
 msgstr "Błąd systemu"
 
-#: ../src/ui.py:923
+#: ../src/ui.py:925
 msgid "Cannot load ui file"
 msgstr "Nie można wczytać pliku interfejsu użytkownika"
 
-#: ../src/ui.py:1007
+#: ../src/ui.py:1009
 msgid "--help    Print the command line options"
 msgstr "--help    Wyświetla opcje wiersza poleceń"
 
-#: ../src/ui.py:1008
+#: ../src/ui.py:1010
 msgid "--version Output version information and exit"
-msgstr "--version Wyświetla informacje o wersji i kończy działanie"
+msgstr "--version Wyświetla informacje o wersji i kończy działanie"
 
 #: ../src/uploader.py:54
 msgid "Burning bootloader..."
@@ -205,7 +201,7 @@ msgstr "Nagrywanie programu startowego…"
 #: ../src/uploader.py:67 ../src/uploader.py:102 ../src/uploader.py:154
 #: ../src/uploader.py:168
 msgid "Flashing error."
-msgstr "Błąd podczas zapisywania w pamięci flash."
+msgstr "Błąd podczas zapisywania w pamięci flash."
 
 #: ../src/uploader.py:93 ../src/uploader.py:124
 msgid "Burn Error"
@@ -221,19 +217,19 @@ msgstr "Ukończono nagrywanie."
 
 #: ../src/uploader.py:136
 msgid "Flashing..."
-msgstr "Zapisywanie w pamięci flash…"
+msgstr "Zapisywanie w pamięci flash…"
 
 #: ../src/uploader.py:187
 msgid "Flashing Error"
-msgstr "Błąd podczas zapisywania w pamięci flash"
+msgstr "Błąd podczas zapisywania w pamięci flash"
 
 #: ../src/uploader.py:187
 msgid "Flash ERROR.\n"
-msgstr "BŁĄD zapisywania w pamięci flash.\n"
+msgstr "BŁĄD zapisywania w pamięci flash.\n"
 
 #: ../src/uploader.py:190
 msgid "Flashing complete."
-msgstr "Ukończono zapisywanie w pamięci flash."
+msgstr "Ukończono zapisywanie w pamięci flash."
 
 #: ../ui/arduino.xml.h:1
 msgid "Arduino"
@@ -275,7 +271,7 @@ msgid ""
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
 "USA.\n"
 msgstr ""
-" gnoduino — implementacja środowiska programistycznego Arduino w języku "
+" gnoduino — implementacja środowiska programistycznego Arduino w języku "
 "Python\n"
 " Copyright © 2010-2012 Lucian Langa\n"
 "\n"
@@ -285,13 +281,13 @@ msgstr ""
 "Foundation) — według wersji drugiej tej Licencji lub którejś z\n"
 "późniejszych wersji.\n"
 "\n"
-"Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on\n"
+"Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on\n"
 "użyteczny — jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej\n"
 "gwarancji PRZYDATNOŚCI HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH\n"
-"ZASTOSOWAŃ. W celu uzyskania bliższych informacji należy zapoznać\n"
-"się z Powszechną Licencją Publiczną GNU.\n"
+"ZASTOSOWAŃ. W celu uzyskania bliższych informacji należy zapoznać\n"
+"się z Powszechną Licencją Publiczną GNU.\n"
 "\n"
-"Z pewnością wraz z niniejszym programem dostarczono także egzemplarz\n"
+"Z pewnością wraz z niniejszym programem dostarczono także egzemplarz\n"
 "Powszechnej Licencji Publicznej GNU (GNU General Public License); jeśli\n"
 "nie — proszę napisać do Free Software Foundation, Inc., 51 Franklin\n"
 "Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
@@ -299,8 +295,8 @@ msgstr ""
 #: ../ui/main.ui.h:21
 msgid "translator-credits"
 msgstr ""
-"Piotr Drąg <piotrdrag@gmail.com>, 2012-2015\n"
-"Aviary.pl <gnomepl@aviary.pl>, 2012-2015"
+"Piotr Drąg <piotrdrag@gmail.com>, 2012-2016\n"
+"Aviary.pl <community-poland@mozilla.org>, 2012-2016"
 
 #: ../ui/main.ui.h:22
 msgid "Search for:"
@@ -316,7 +312,7 @@ msgstr "Automatyczny powrót do początku"
 
 #: ../ui/main.ui.h:25
 msgid "Match case"
-msgstr "Rozróżnianie małych i wielkich liter"
+msgstr "Rozróżnianie małych i wielkich liter"
 
 #: ../ui/main.ui.h:26
 msgid "Search backwards"
