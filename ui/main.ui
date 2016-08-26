@@ -349,7 +349,7 @@ Pascal de Bruijn &lt;pmjdebruijn@pcode.nl&gt;</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
-                    <property name="font">Sans 12</property>
+                    <property name="font-name">Sans 12</property>
                     <property name="use_font">True</property>
                   </object>
                   <packing>
@@ -363,7 +363,7 @@ Pascal de Bruijn &lt;pmjdebruijn@pcode.nl&gt;</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
-                    <property name="font">Sans 12</property>
+                    <property name="font-name">Sans 12</property>
                     <property name="use_font">True</property>
                   </object>
                   <packing>
