@@ -109,7 +109,7 @@ class sconsole:
 		b.set_text("")
 
 	def getBaudrates(self):
-		return [i[0] for i in self.serial.getSupportedBaudrates() if i[1] >= 300 and i[1] <= 1150000]
+		return [str(elem) for count, elem in enumerate(self.serial.BAUDRATES) if elem >= 300 and elem <= 1150000]
 	def getConfigSerialPort(self, notify, output):
 		if config.cur_serial_port == -1:
 			misc.printError(None, output, \
